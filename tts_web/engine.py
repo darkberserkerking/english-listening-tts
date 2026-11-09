@@ -38,14 +38,16 @@ import sfx
 FFMPEG = None
 CONCURRENCY = 12    # 并发合成段数（实测 4→17.1s，12→9.1s，16→7.1s；再高易被服务端限流）
 
-BASE = os.path.dirname(os.path.abspath(__file__))
-SEG_CACHE = os.path.join(BASE, "cache", "seg")
+import runtime_paths as rp
+
+BASE = rp.SRC_DIR
+SEG_CACHE = os.path.join(rp.DATA_DIR, "cache", "seg")
 
 
 def ffmpeg():
     global FFMPEG
     if FFMPEG is None:
-        FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
+        FFMPEG = rp.ffmpeg_exe()
     return FFMPEG
 
 

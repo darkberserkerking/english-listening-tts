@@ -20,15 +20,17 @@ from flask import Flask, jsonify, request, send_file, send_from_directory
 
 import engine
 import sfx
+import runtime_paths as rp
 
-if hasattr(sys.stdout, "reconfigure"):
+if sys.stdout is not None and hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-BASE = os.path.dirname(os.path.abspath(__file__))
-OUT_DIR = os.path.join(BASE, "output")
-CACHE_DIR = os.path.join(BASE, "cache")
-HIST_FILE = os.path.join(BASE, "history.json")
-VOICE_CACHE = os.path.join(BASE, "voices_cache.json")
+BASE = rp.SRC_DIR
+RES_DIR = rp.RES_DIR
+OUT_DIR = os.path.join(rp.DATA_DIR, "output")
+CACHE_DIR = os.path.join(rp.DATA_DIR, "cache")
+HIST_FILE = os.path.join(rp.DATA_DIR, "history.json")
+VOICE_CACHE = os.path.join(RES_DIR, "voices_cache.json")
 os.makedirs(OUT_DIR, exist_ok=True)
 os.makedirs(CACHE_DIR, exist_ok=True)
 
@@ -390,7 +392,7 @@ def save_history(items):
 
 @app.route("/")
 def index():
-    return send_from_directory(os.path.join(BASE, "templates"), "index.html")
+    return send_from_directory(os.path.join(RES_DIR, "templates"), "index.html")
 
 
 @app.route("/api/voices")

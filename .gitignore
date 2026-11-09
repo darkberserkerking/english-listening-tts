@@ -44,3 +44,9 @@ _preview.html
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# ---------- 构建环境 / 本地备份 ----------
+.buildenv/
+backup/
+dist/
+build/

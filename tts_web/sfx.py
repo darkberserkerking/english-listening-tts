@@ -12,10 +12,11 @@ import struct
 import subprocess
 import wave
 
-import imageio_ffmpeg
+import imageio_ffmpeg  # 未随包附带 ffmpeg 时的回退
+import runtime_paths as rp
 
 RATE = 24000
-ASSETS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets")
+ASSETS = os.path.join(rp.RES_DIR, "assets")
 NAMES = {1: "叮咚", 2: "风铃", 3: "嘟嘟", 4: "哒喃", 5: "当~", 6: "咚~", 7: "叮~"}
 DESCS = {1: "双音下行，最常用的门铃", 2: "多音错落，清脆悠长",
          3: "短促两声，像电子提示", 4: "木质敲击，短而干脆",
@@ -120,7 +121,7 @@ FUNCS = {1: sfx_1, 2: sfx_2, 3: sfx_3, 4: sfx_4, 5: sfx_5, 6: sfx_6, 7: sfx_7}
 
 
 def _ffmpeg():
-    return imageio_ffmpeg.get_ffmpeg_exe()
+    return rp.ffmpeg_exe()
 
 
 def get(index):
