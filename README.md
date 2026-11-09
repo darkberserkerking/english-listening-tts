@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/icon.png" width="96" alt="应用图标：耳机与声波"></p>
+
 # english-listening-tts
 
 一个本地运行的文字转语音工具，专为制作**英语听力卷**设计。
