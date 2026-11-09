@@ -74,7 +74,7 @@ def trim_seg_cache(limit=6000):
 
 app = Flask(__name__, static_folder=None)
 JOBS = {}
-HIST_LOCK = threading.Lock()
+HIST_LOCK = threading.RLock()  # worker 持锁时会再调用 save_history，必须可重入
 
 LANG_NAMES = {
     "zh-CN": "中文（普通话）", "zh-HK": "中文（粤语）", "zh-TW": "中文（台湾）",
