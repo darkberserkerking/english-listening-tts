@@ -110,5 +110,5 @@ python _test_pipeline.py    # 后端全链路（会实际调用在线接口）
 
 - 本项目通过 `edge-tts` 调用 Microsoft Edge「大声朗读」功能背后的在线接口。该接口**不是微软公开的官方 API**，没有文档、没有 SLA、不保证长期可用，微软在线服务条款也未明确授权第三方程序调用。接口变更或限流时，合成可能失败或变慢。
 - **文本会发送到微软服务器**，请勿输入敏感、私密或含个人信息的内容。
-- 本项目仅供个人学习与教学使用。用于公开分发或商业用途前，请自行评估授权风险，或改用 [Azure AI Speech](https://azure.microsoft.com/pricing/details/cognitive-services/speech-services/) 官方接口。
-- 依赖许可证：`edge-tts` 为 LGPLv3、`Flask` 为 BSD-3-Clause、`imageio-ffmpeg` 为 BSD-2-Clause。本仓库目前**未指定 LICENSE**，如需授权他人使用请自行补充，并注意 LGPLv3 的兼容性要求。
+- 本项目**原创代码采用 [MIT License](LICENSE)**，允许商用；但语音合成依赖的在线接口并非官方授权 API，商用前请先评估该服务的条款风险，或改用 [Azure AI Speech](https://azure.microsoft.com/pricing/details/cognitive-services/speech-services/) 官方接口。
+- 运行时依赖与 exe 分发的第三方许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。其中 `edge-tts` 为 LGPL-3.0，分发二进制时需履行源码提供义务。
