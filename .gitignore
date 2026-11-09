@@ -50,3 +50,7 @@ desktop.ini
 backup/
 dist/
 build/
+
+# ---------- 作品申报材料（仅本地使用）----------
+submission/
+make_submission_images.py
