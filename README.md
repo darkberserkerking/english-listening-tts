@@ -14,7 +14,22 @@
 - **逐句试听**：结果区列出每一句，标注角色与音色；可只播一句、或从任意句连续往下播，自动执行停顿与提示音
 - **单句内容寻址缓存**：按「文本 + 音色 + 语速 + 音调 + 音量」哈希，重复句子直接复用，二次生成几乎瞬时
 
-## 快速开始
+## 下载免安装版（Windows）
+
+不想装 Python？到 [Releases](https://github.com/darkberserkerking/english-listening-tts/releases) 下载 `EnglishListeningTTS-v1.0.0-win64.exe`，双击即可运行。
+
+启动后会出现一个黑色命令行窗口（显示访问地址），浏览器自动打开工具页面；**使用期间不要关闭这个窗口**。生成的 MP3、缓存和历史记录保存在 exe 所在目录。
+
+> 单文件已内置 ffmpeg，冷启动约 2~3 秒。需要联网；语音由微软 Edge 在线接口合成。校验值与注意事项见 Release 页面。
+
+自行构建 exe：
+
+```bash
+pip install -r requirements.txt pyinstaller
+pyinstaller --noconfirm tts.spec
+```
+
+## 源码运行
 
 需要 Python 3.9+，运行时需要联网（语音由在线服务合成）。
 
