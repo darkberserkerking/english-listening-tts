@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>文字转语音 · 在线语音合成工具</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%233d5afe'/%3E%3Cpath d='M50 22a9 9 0 0 0-9 9v18a9 9 0 0 0 18 0V31a9 9 0 0 0-9-9zm21 27a21 21 0 0 1-18 20.8V80h9a3 3 0 1 1 0 6H38a3 3 0 1 1 0-6h9v-10.2A21 21 0 0 1 29 49a3 3 0 1 1 6 0 15 15 0 0 0 30 0 3 3 0 1 1 6 0z' fill='white'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#f5f6f8; --card:#fff; --line:#e6e8ec; --text:#1a1d23; --sub:#6b7280;
+  --brand:#3d5afe; --brand-d:#2f47cc; --brand-l:#eef1ff;
+  --ok:#0e9f6e; --warn:#d97706; --err:#dc2626;
+  --radius:14px; --shadow:0 1px 2px rgba(16,24,40,.04),0 8px 24px -12px rgba(16,24,40,.12);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg); color:var(--text);
+  font:14px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+input,select,textarea{font-family:inherit;font-size:14px;color:inherit}
+a{color:var(--brand);text-decoration:none}
+
+/* ---------- header ---------- */
+header{
+  background:#fff;border-bottom:1px solid var(--line);
+  padding:14px 28px;display:flex;align-items:center;gap:14px;
+  position:sticky;top:0;z-index:50;
+}
+.logo{
+  width:38px;height:38px;border-radius:11px;flex:0 0 auto;
+  background:linear-gradient(140deg,#5c6fff,#3d5afe);display:grid;place-items:center;
+  box-shadow:0 4px 12px -2px rgba(61,90,254,.45);
+}
+.logo svg{width:20px;height:20px;fill:#fff}
+h1{font-size:16px;margin:0;font-weight:650;letter-spacing:.2px}
+.tagline{font-size:12px;color:var(--sub);margin:0}
+.hspacer{flex:1}
+.ghost{
+  border:1px solid var(--line);border-radius:9px;padding:7px 13px;font-size:13px;
+  color:var(--sub);background:#fff;transition:.15s;
+}
+.ghost:hover{border-color:#c9cdd6;color:var(--text)}
+
+/* ---------- layout ---------- */
+main{
+  max-width:1180px;margin:0 auto;padding:22px 28px 60px;
+  display:grid;grid-template-columns:minmax(0,1fr) 396px;gap:18px;align-items:start;
+}
+@media (max-width:1000px){ main{grid-template-columns:1fr} header{padding:12px 16px} main{padding:16px} }
+
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);
+}
+.card-h{
+  padding:14px 18px;border-bottom:1px solid var(--line);
+  display:flex;align-items:center;gap:10px;
+}
+.card-h h2{font-size:13.5px;margin:0;font-weight:650;letter-spacing:.3px}
+.card-h .hint{font-size:12px;color:var(--sub);margin-left:auto}
+
+/* ---------- mode tabs ---------- */
+.modes{display:flex;gap:6px;background:#eef0f4;padding:4px;border-radius:11px}
+.modes button{
+  flex:1;padding:8px 10px;border-radius:8px;font-size:13px;font-weight:550;color:var(--sub);
+  transition:.16s;white-space:nowrap;
+}
+.modes button.on{background:#fff;color:var(--brand);box-shadow:0 1px 3px rgba(16,24,40,.10)}
+
+/* ---------- editor ---------- */
+.editor-wrap{padding:0 0 4px}
+textarea#text{
+  width:100%;min-height:340px;border:none;outline:none;resize:vertical;
+  padding:16px 18px;line-height:1.9;font-size:14.5px;background:transparent;
+  border-radius:0 0 var(--radius) var(--radius);
+}
+textarea#text::placeholder{color:#b3b8c2}
+.toolbar{
+  display:flex;align-items:center;gap:6px;padding:9px 14px;
+  border-bottom:1px solid var(--line);flex-wrap:wrap;
+}
+.tool{
+  border:1px solid var(--line);border-radius:8px;padding:5px 10px;font-size:12.5px;color:var(--sub);
+  background:#fff;transition:.15s;display:inline-flex;align-items:center;gap:5px;
+}
+.tool:hover{border-color:#c9cdd6;color:var(--text);background:#fafbfc}
+.count{margin-left:auto;font-size:12px;color:#9aa0ab;font-variant-numeric:tabular-nums}
+.count.over{color:var(--err)}
+
+/* ---------- settings ---------- */
+.panel{padding:16px 18px;display:flex;flex-direction:column;gap:16px}
+.field{display:flex;flex-direction:column;gap:7px}
+.label{font-size:12.5px;color:var(--sub);font-weight:550;display:flex;align-items:center;gap:6px}
+.label .val{margin-left:auto;color:var(--text);font-weight:600;font-variant-numeric:tabular-nums}
+
+/* slider */
+input[type=range]{
+  -webkit-appearance:none;width:100%;height:4px;border-radius:3px;background:#e6e8ec;outline:none;
+}
+input[type=range]::-webkit-slider-thumb{
+  -webkit-appearance:none;width:16px;height:16px;border-radius:50%;background:#fff;
+  border:2px solid var(--brand);box-shadow:0 1px 4px rgba(16,24,40,.2);cursor:pointer;
+}
+.ticks{display:flex;justify-content:space-between;font-size:11px;color:#a8aebb;margin-top:-2px}
+
+/* role rate */
+.role-rate{display:flex;align-items:center;gap:9px;margin-top:1px}
+.role-rate .rr-k{font-size:11.5px;color:#9aa0ab;flex:0 0 auto}
+.role-rate input[type=range]{flex:1;height:3px}
+.role-rate .rr-v{font-size:11.5px;color:var(--sub);width:44px;text-align:right;font-variant-numeric:tabular-nums}
+.role-item{background:#fbfcfe;border:1px solid #eef0f4;border-radius:10px;padding:9px 10px}
+
+/* custom voice picker */
+.picker{position:relative}
+.picker-btn{
+  width:100%;border:1px solid var(--line);border-radius:10px;padding:9px 11px;background:#fff;
+  display:flex;align-items:center;gap:8px;text-align:left;transition:.15s;
+}
+.picker-btn:hover{border-color:#c3c8d2}
+.picker-btn .pk-main{flex:1;min-width:0}
+.picker-btn .pk-name{font-size:13.5px;font-weight:550;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.picker-btn .pk-sub{font-size:11.5px;color:var(--sub);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chev{width:14px;height:14px;fill:#9aa0ab;flex:0 0 auto;transition:.2s}
+.picker.open .chev{transform:rotate(180deg)}
+.pk-pop{
+  position:absolute;top:calc(100% + 6px);left:0;right:0;z-index:60;background:#fff;
+  border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 32px -8px rgba(16,24,40,.22);
+  padding:8px;display:none;
+}
+.picker.open .pk-pop{display:block}
+.pk-search{
+  width:100%;border:1px solid var(--line);border-radius:8px;padding:7px 10px;outline:none;margin-bottom:6px;
+}
+.pk-search:focus{border-color:var(--brand)}
+.pk-list{max-height:290px;overflow:auto;overscroll-behavior:contain}
+.pk-group{font-size:11px;color:#9aa0ab;padding:7px 8px 3px;font-weight:600;letter-spacing:.3px}
+.pk-item{display:flex;align-items:center;gap:8px;padding:7px 8px;border-radius:8px;cursor:pointer}
+.pk-item:hover{background:#f4f6fb}
+.pk-item.sel{background:var(--brand-l)}
+.pi-body{flex:1;min-width:0;display:flex;flex-direction:column;gap:1px}
+.pi-t{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  display:flex;align-items:center;gap:6px}
+.pi-g{font-size:10px;color:#98a0ad;background:#f0f2f6;padding:0 5px;border-radius:4px;flex:0 0 auto}
+.pi-n{font-size:11px;color:#9aa0ab;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sfx-num{font-size:11px;color:var(--brand);font-weight:600;background:var(--brand-l);
+  padding:2px 6px;border-radius:5px;flex:0 0 auto;font-variant-numeric:tabular-nums}
+.pk-play{
+  width:22px;height:22px;border-radius:50%;background:#eef1ff;color:var(--brand);
+  display:grid;place-items:center;flex:0 0 auto;font-size:10px;
+}
+.pk-play:hover{background:var(--brand);color:#fff}
+
+/* switch */
+.switch{display:flex;align-items:center;gap:9px;cursor:pointer;user-select:none}
+.switch input{display:none}
+.track{width:36px;height:20px;border-radius:20px;background:#dfe3ea;position:relative;transition:.18s;flex:0 0 auto}
+.track::after{
+  content:"";position:absolute;top:2px;left:2px;width:16px;height:16px;border-radius:50%;
+  background:#fff;box-shadow:0 1px 3px rgba(16,24,40,.25);transition:.18s;
+}
+.switch input:checked + .track{background:var(--brand)}
+.switch input:checked + .track::after{transform:translateX(16px)}
+
+/* advanced */
+details.adv{border-top:1px dashed var(--line);padding-top:12px}
+details.adv summary{
+  font-size:12.5px;color:var(--sub);cursor:pointer;font-weight:550;list-style:none;
+  display:flex;align-items:center;gap:6px;
+}
+details.adv summary::-webkit-details-marker{display:none}
+details.adv[open] summary{margin-bottom:12px}
+details.adv .body{display:flex;flex-direction:column;gap:14px}
+
+/* generate */
+.gen-btn{
+  width:100%;background:var(--brand);color:#fff;border-radius:11px;padding:13px;
+  font-size:14.5px;font-weight:600;transition:.16s;
+  box-shadow:0 6px 16px -6px rgba(61,90,254,.6);
+}
+.gen-btn:hover{background:var(--brand-d)}
+.gen-btn:disabled{background:#b9c0d4;box-shadow:none;cursor:not-allowed}
+.bar{height:5px;border-radius:4px;background:#eef0f4;overflow:hidden;display:none}
+.bar.on{display:block}
+.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,#5c6fff,#3d5afe);transition:width .3s}
+.prog-txt{font-size:12px;color:var(--sub);display:none;margin-top:-8px}
+.prog-txt.on{display:block}
+
+/* result */
+.result{display:none;padding:0 18px 16px}
+.result.on{display:block}
+audio{width:100%;height:38px;outline:none}
+.res-row{display:flex;align-items:center;gap:10px;margin-top:10px}
+.dl{
+  flex:1;text-align:center;background:var(--brand-l);color:var(--brand);border-radius:9px;
+  padding:9px;font-size:13px;font-weight:600;transition:.15s;
+}
+.dl:hover{background:#e2e7ff}
+.meta{font-size:12px;color:var(--sub)}
+
+/* history */
+.hist-item{
+  display:flex;align-items:center;gap:10px;padding:11px 18px;border-bottom:1px solid #f1f3f6;
+  cursor:pointer;transition:.14s;
+}
+.hist-item:hover{background:#fafbfd}
+.hist-item:last-child{border-bottom:none}
+.hi-icon{width:30px;height:30px;border-radius:8px;background:#f3f5f9;display:grid;place-items:center;flex:0 0 auto}
+.hi-icon svg{width:14px;height:14px;fill:#8b93a3}
+.hi-t{flex:1;min-width:0}
+.hi-t .n{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hi-t .m{font-size:11.5px;color:var(--sub)}
+.empty{padding:26px;text-align:center;color:#a8aebb;font-size:13px}
+.badge{font-size:11px;padding:1px 7px;border-radius:20px;background:#eef1ff;color:var(--brand);font-weight:600}
+.toast{
+  position:fixed;left:50%;bottom:28px;transform:translate(-50%,14px);opacity:0;
+  background:#1a1d23;color:#fff;padding:10px 18px;border-radius:10px;font-size:13px;
+  transition:.24s;pointer-events:none;z-index:200;box-shadow:0 8px 24px rgba(0,0,0,.2);
+}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+/* ---------- 分段试听 ---------- */
+.segs-wrap{display:none;padding:0 18px 16px}
+.segs-wrap.on{display:block}
+.segs-bar{display:flex;align-items:center;gap:8px;padding:4px 0 10px}
+.juke-btn{
+  border:1px solid var(--brand);color:var(--brand);background:var(--brand-l);
+  border-radius:8px;padding:6px 12px;font-size:12.5px;font-weight:600;
+  display:inline-flex;align-items:center;gap:6px;transition:.15s;
+}
+.juke-btn:hover{background:#e3e8ff}
+.juke-btn.on{background:var(--brand);color:#fff;border-color:var(--brand)}
+.juke-btn svg{width:11px;height:11px;fill:currentColor}
+.segs-info{margin-left:auto;font-size:11.5px;color:#9aa0ab;font-variant-numeric:tabular-nums}
+.segs{
+  max-height:430px;overflow:auto;overscroll-behavior:contain;
+  border:1px solid var(--line);border-radius:10px;background:#fcfdff;
+}
+.seg-row{
+  display:flex;align-items:center;gap:8px;padding:8px 11px;
+  border-bottom:1px solid #f2f4f8;cursor:pointer;transition:background .12s;
+}
+.seg-row:last-child{border-bottom:none}
+.seg-row:hover{background:#f4f6fc}
+.seg-row.pend{opacity:.42}
+.seg-row.waiting{background:#fff8e8}
+.seg-row.playing{background:var(--brand-l)}
+.seg-play{
+  width:23px;height:23px;border-radius:50%;flex:0 0 auto;
+  background:var(--brand-l);color:var(--brand);display:grid;place-items:center;
+}
+.seg-play svg{width:10px;height:10px;fill:currentColor}
+.seg-row.pend .seg-play{background:#eef0f4;color:#b8bec9}
+.seg-row.playing .seg-play{background:var(--brand);color:#fff}
+.seg-no{flex:0 0 22px;font-size:11px;color:#a8aebb;font-variant-numeric:tabular-nums;text-align:right}
+.seg-meta{display:flex;align-items:center;gap:4px;flex:0 0 auto}
+.seg-role{font-size:10.5px;font-weight:600;color:#fff;border-radius:4px;padding:1px 5px;line-height:1.5}
+.seg-voice{font-size:10.5px;color:#5b6270;background:#eef0f4;border-radius:4px;padding:1px 5px;line-height:1.5}
+.seg-g{font-size:10px;color:#a0a7b3}
+.seg-text{
+  flex:1;min-width:0;font-size:13px;color:#333a45;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.seg-row.playing .seg-text{color:var(--brand-d);font-weight:550}
+.hide{display:none !important}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <svg viewBox="0 0 24 24"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zm7 9a7 7 0 0 1-6 6.92V21h3a1 1 0 1 1 0 2H8a1 1 0 1 1 0-2h3v-2.08A7 7 0 0 1 5 12a1 1 0 1 1 2 0 5 5 0 0 0 10 0 1 1 0 1 1 2 0z"/></svg>
+  </div>
+  <div>
+    <h1>文字转语音</h1>
+    <p class="tagline"><span id="voiceCount">—</span> 种神经网络音色 · 支持中文 / 英文 / 多语种 · 一键下载 MP3</p>
+  </div>
+  <div class="hspacer"></div>
+  <button class="ghost" id="btnHelp">快捷键</button>
+</header>
+
+<main>
+  <!-- 左：编辑区 -->
+  <section>
+    <div class="card">
+      <div class="card-h">
+        <div class="modes" id="modes">
+          <button class="on" data-mode="single">单人朗读</button>
+          <button data-mode="dialogue">多人对话</button>
+          <button data-mode="dictation">单词听写</button>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div style="position:relative">
+          <button class="tool" id="btnPause">⏱ 插入停顿</button>
+          <div class="pk-pop" id="pausePop" style="width:140px;right:auto">
+            <button class="tool" style="width:100%;justify-content:flex-start;border:none" data-p="0.5">0.5 秒</button>
+            <button class="tool" style="width:100%;justify-content:flex-start;border:none" data-p="1">1 秒</button>
+            <button class="tool" style="width:100%;justify-content:flex-start;border:none" data-p="2">2 秒</button>
+            <button class="tool" style="width:100%;justify-content:flex-start;border:none" data-p="3">3 秒</button>
+            <button class="tool" style="width:100%;justify-content:flex-start;border:none" data-p="5">5 秒</button>
+            <button class="tool" style="width:100%;justify-content:flex-start;border:none" data-p="10">10 秒</button>
+          </div>
+        </div>
+        <div style="position:relative">
+          <button class="tool" id="btnDing">🔔 提示音</button>
+          <div class="pk-pop" id="dingPop" style="width:220px;right:auto">
+            <div id="dingList"></div>
+          </div>
+        </div>
+        <button class="tool" id="btnDemo">示例</button>
+        <button class="tool" id="btnClear">清空</button>
+        <span class="count" id="count">0 字</span>
+      </div>
+      <div class="editor-wrap">
+        <textarea id="text" spellcheck="false" placeholder="在这里粘贴或输入要朗读的文字……"></textarea>
+      </div>
+    </div>
+
+    <!-- 结果 -->
+    <div class="card" style="margin-top:16px">
+      <div class="card-h">
+        <h2>生成结果</h2>
+        <span class="hint" id="resMeta"></span>
+      </div>
+      <div class="result" id="result">
+        <audio id="player" controls></audio>
+        <div class="res-row">
+          <a class="dl" id="btnDownload" download>下载 MP3</a>
+          <span class="meta" id="resInfo"></span>
+        </div>
+      </div>
+      <div class="empty" id="resEmpty">还没有生成音频，点击右侧「开始生成」</div>
+      <div class="segs-wrap" id="segsWrap">
+        <div class="segs-bar">
+          <button class="juke-btn" id="btnJuke">
+            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>连续播放
+          </button>
+          <span class="segs-info" id="segsInfo"></span>
+        </div>
+        <div class="segs" id="segs"></div>
+      </div>
+    </div>
+
+    <!-- 历史 -->
+    <div class="card" style="margin-top:16px">
+      <div class="card-h">
+        <h2>历史记录</h2>
+        <span class="hint"><button class="tool" id="btnClearHist" style="padding:2px 8px">清空</button></span>
+      </div>
+      <div id="history"><div class="empty">暂无记录</div></div>
+    </div>
+  </section>
+
+  <!-- 右：设置 -->
+  <aside>
+    <div class="card">
+      <div class="card-h"><h2>合成设置</h2><span class="hint" id="modeHint">整段朗读</span></div>
+      <div class="panel">
+
+        <!-- 单人 / 听写：单音色 -->
+        <div class="field" id="fieldSingle">
+          <label class="label">发音人</label>
+          <div class="picker" data-picker="single"></div>
+        </div>
+
+        <!-- 对话：多角色自动识别 -->
+        <div id="fieldDialogue" class="hide" style="display:flex;flex-direction:column;gap:14px">
+          <div class="field">
+            <label class="label">识别到的角色<span class="val" id="roleCount" style="color:var(--sub);font-weight:400"></span></label>
+            <div id="roleList" style="display:flex;flex-direction:column;gap:12px"></div>
+            <div class="empty" id="roleEmpty" style="padding:14px 10px;font-size:12.5px;line-height:1.7">
+              在左侧输入「角色名: 台词」，<br>角色数量会自动识别，几个人都行
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">句间停顿<span class="val" id="lpVal">0.6 秒</span></label>
+            <input type="range" id="linePause" min="0" max="3" step="0.1" value="0.6">
+          </div>
+        </div>
+
+        <!-- 听写参数 -->
+        <div id="fieldDictation" class="hide" style="display:flex;flex-direction:column;gap:14px">
+          <div class="field">
+            <label class="label">每个词重复<span class="val" id="rpVal">2 次</span></label>
+            <input type="range" id="repeat" min="1" max="4" step="1" value="2">
+          </div>
+          <div class="field">
+            <label class="label">词间停顿<span class="val" id="wgVal">2.0 秒</span></label>
+            <input type="range" id="wordGap" min="0.5" max="6" step="0.5" value="2">
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="spell"><span class="track"></span>
+            <span style="font-size:13px">先拼读字母（a-p-p-l-e）</span>
+          </label>
+        </div>
+
+        <!-- 通用：语速 -->
+        <div class="field">
+          <label class="label">语速<span class="val" id="rateVal">×1.00</span></label>
+          <input type="range" id="rate" min="-50" max="50" step="5" value="0">
+          <div class="ticks"><span>慢</span><span>正常</span><span>快</span></div>
+        </div>
+
+        <details class="adv">
+          <summary>高级参数</summary>
+          <div class="body">
+            <div class="field">
+              <label class="label">音调<span class="val" id="pitchVal">+0 Hz</span></label>
+              <input type="range" id="pitch" min="-50" max="50" step="1" value="0">
+            </div>
+            <div class="field">
+              <label class="label">音量<span class="val" id="volVal">+0%</span></label>
+              <input type="range" id="volume" min="-50" max="50" step="5" value="0">
+            </div>
+          </div>
+        </details>
+
+        <label class="switch" style="margin-top:-6px">
+          <input type="checkbox" id="follow" checked><span class="track"></span>
+          <span style="font-size:13px">边生成边播放</span>
+        </label>
+
+        <button class="gen-btn" id="btnGen">开始生成</button>
+        <div class="bar" id="bar"><i></i></div>
+        <div class="prog-txt" id="progTxt"></div>
+      </div>
+    </div>
+  </aside>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const $  = (s,r=document)=>r.querySelector(s);
+const $$ = (s,r=document)=>[...r.querySelectorAll(s)];
+
+const state = {
+  mode:'single',
+  single:'en-GB-SoniaNeural',
+  dictation:'en-GB-SoniaNeural',
+  rate:0, pitch:0, volume:0,
+  linePause:0.6, repeat:2, wordGap:2.0, spell:false,
+  roles:{}, roleRates:{}
+};
+let VOICES = [], CUR_AUDIO = null, LAST_ROLE_KEY = '';
+
+const DEMOS = {
+  single:`Hello, everyone. Welcome to today's listening practice.
+
+Hobbies make our life colourful. Some people like reading books, and some like playing football. (⏱️=2s)
+
+Now listen carefully and choose the right answer.`,
+  dialogue:`C: 请仔细听，每题听两遍。(🔔=1)
+C: 第一部分：听录音，选择与所听内容相符的图片。(🔔=1)
+W: I like playing football. I like playing football. (⏱️=3s)(🔔=1)
+W: My hobby is reading books. My hobby is reading books. (⏱️=3s)(🔔=1)
+M: He wants to join the Robot Club. It is fun. (⏱️=3s)(🔔=1)
+Q: What does he want to join? (⏱️=3s)`,
+  dictation:`apple
+library
+weekend
+basketball
+different`
+};
+
+/* ---------------- 音色选择器 ---------------- */
+function voiceBy(name){ return VOICES.find(v=>v.name===name); }
+function labelOf(name){
+  const v = voiceBy(name);
+  if(!v) return {name, short:name, lang:'', gender:''};
+  return {name:v.name, short:v.short||v.name, lang:v.lang,
+          gender:v.gender==='Female'?'女声':'男声'};
+}
+
+function buildPicker(el, key, opts){
+  opts = opts || {};
+  const get = opts.get || (()=>state[key]);
+  const set = opts.set || (v=>{ state[key] = v; });
+  const cur = labelOf(get());
+  el.innerHTML = `
+    <button class="picker-btn">
+      <span class="pk-main">
+        <span class="pk-name">${cur.short} · ${cur.gender}</span>
+        <span class="pk-sub">${cur.lang}</span>
+      </span>
+      <svg class="chev" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+    </button>
+    <div class="pk-pop">
+      <input class="pk-search" placeholder="搜索语言或音色，如「英语」「晓晓」">
+      <div class="pk-list"></div>
+    </div>`;
+  const btn = $('.picker-btn', el);
+  const search = $('.pk-search', el);
+  const list = $('.pk-list', el);
+
+  function render(kw=''){
+    kw = kw.trim().toLowerCase();
+    const hit = VOICES.filter(v => !kw ||
+      (v.lang+v.name+(v.short||'')+v.friendly).toLowerCase().includes(kw));
+    if(!hit.length){ list.innerHTML = '<div class="empty" style="padding:18px">没有匹配的音色</div>'; return; }
+    let html='', lastLang='';
+    for(const v of hit.slice(0,260)){
+      if(v.lang!==lastLang){ html += `<div class="pk-group">${v.lang}</div>`; lastLang=v.lang; }
+      html += `<div class="pk-item ${v.name===get()?'sel':''}" data-v="${v.name}">
+        <span class="pi-body">
+          <span class="pi-t">${v.short||v.name}
+            <span class="pi-g">${v.gender==='Female'?'女':'男'}</span></span>
+          <span class="pi-n">${v.note || ''}</span>
+        </span>
+        <button class="pk-play" data-play="${v.name}" title="试听">▶</button>
+      </div>`;
+    }
+    list.innerHTML = html;
+  }
+  render();
+
+  btn.onclick = e => {
+    e.stopPropagation();
+    $$('.picker.open').forEach(p=>{ if(p!==el) p.classList.remove('open'); });
+    el.classList.toggle('open');
+    if(el.classList.contains('open')) setTimeout(()=>search.focus(),30);
+  };
+  search.oninput = ()=>render(search.value);
+  search.onclick = e=>e.stopPropagation();
+  list.onclick = e => {
+    const play = e.target.closest('[data-play]');
+    if(play){ e.stopPropagation(); preview(play.dataset.play); return; }
+    const item = e.target.closest('[data-v]');
+    if(!item) return;
+    set(item.dataset.v);
+    const l = labelOf(get());
+    $('.pk-name', btn).textContent = `${l.short} · ${l.gender}`;
+    $('.pk-sub', btn).textContent = l.lang;
+    el.classList.remove('open');
+    $$('.pk-item', list).forEach(i=>i.classList.toggle('sel', i.dataset.v===get()));
+  };
+}
+
+async function preview(name){
+  try{
+    const a = new Audio('/api/preview?voice=' + encodeURIComponent(name));
+    a.volume = 0.9;
+    await a.play();
+  }catch(e){ toast('试听失败，请检查网络'); }
+}
+
+document.addEventListener('click', ()=>{
+  $$('.picker.open').forEach(p=>p.classList.remove('open'));
+  closePops();
+});
+$('#pausePop').onclick = e => e.stopPropagation();
+
+/* ---------------- 初始化 ---------------- */
+async function loadVoices(){
+  const r = await fetch('/api/voices');
+  const d = await r.json();
+  VOICES = d.voices;
+  $('#voiceCount').textContent = d.count;
+  buildPicker($('[data-picker=single]'), 'single');
+}
+
+/* ---------------- 多角色自动识别 ---------------- */
+async function refreshRoles(force){
+  if(state.mode !== 'dialogue') return;
+  const text = $('#text').value;
+  if(!text.trim()){ LAST_ROLE_KEY = ''; renderRoles([]); return; }
+  try{
+    const r = await fetch('/api/roles', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({text})
+    });
+    const d = await r.json();
+    const key = d.roles.map(x=>x.name).join('|');
+    if(!force && key === LAST_ROLE_KEY) return;
+    LAST_ROLE_KEY = key;
+    const prev = state.roles || {};
+    state.roles = {};
+    d.roles.forEach(x=>{ state.roles[x.name] = prev[x.name] || x.voice; });
+    renderRoles(d.roles);
+  }catch(e){ /* 静默 */ }
+}
+
+function renderRoles(list){
+  const box = $('#roleList'), empty = $('#roleEmpty');
+  $('#roleCount').textContent = list.length ? list.length + ' 个角色' : '';
+  if(!list.length){
+    box.innerHTML = '';
+    empty.classList.remove('hide');
+    return;
+  }
+  empty.classList.add('hide');
+  box.innerHTML = '';
+  list.forEach(r=>{
+    const rv = (r.name in state.roleRates) ? state.roleRates[r.name] : state.rate;
+    const row = document.createElement('div');
+    row.className = 'field role-item';
+    row.dataset.role = r.name;
+    const tag = r.gender || (r.preset ? '预设音色' : '自动音色');
+    row.innerHTML = `<label class="label">${r.name}
+      <span class="val" style="color:var(--sub);font-weight:400">${tag}</span>
+    </label>
+    <div class="picker"></div>
+    <div class="role-rate">
+      <span class="rr-k">语速</span>
+      <input type="range" min="-50" max="50" step="5" value="${rv}">
+      <span class="rr-v">×${(1+rv/100).toFixed(2)}</span>
+    </div>`;
+    box.appendChild(row);
+    buildPicker($('.picker', row), null, {
+      get: ()=> state.roles[r.name] || r.voice,
+      set: v => { state.roles[r.name] = v; }
+    });
+    const rg = $('.role-rate input', row);
+    rg.oninput = ()=>{
+      const v = +rg.value;
+      state.roleRates[r.name] = v;
+      $('.rr-v', row).textContent = '×' + (1+v/100).toFixed(2);
+    };
+  });
+}
+
+/* ---------------- 模式切换 ---------------- */
+$('#modes').onclick = e => {
+  const b = e.target.closest('button[data-mode]');
+  if(!b) return;
+  state.mode = b.dataset.mode;
+  $$('#modes button').forEach(x=>x.classList.toggle('on', x===b));
+  $('#fieldSingle').classList.toggle('hide', state.mode==='dialogue');
+  $('#fieldDialogue').classList.toggle('hide', state.mode!=='dialogue');
+  $('#fieldDictation').classList.toggle('hide', state.mode!=='dictation');
+  if(state.mode==='dictation' && state.single.startsWith('zh')) state.single = 'en-GB-SoniaNeural';
+  buildPicker($('[data-picker=single]'), 'single');
+  $('#modeHint').textContent = {single:'整段朗读', dialogue:'多角色自动识别', dictation:'一行一个词'}[state.mode];
+  updatePlaceholder();
+  if(state.mode==='dialogue'){ LAST_ROLE_KEY=''; refreshRoles(true); }
+};
+
+function updatePlaceholder(){
+  const p = {
+    single:'在这里粘贴或输入要朗读的文字……\n\n支持插入 ⏱ 停顿 与 🔔 提示音',
+    dialogue:'C: 中文旁白\nW: 英式女声\nM: 英式男声\nQ: 问题女声\n\n每行一句，角色名自动识别，几个人都行\n支持 (⏱️=3s) 停顿 与 (🔔=1) 提示音',
+    dictation:'apple\nlibrary\nweekend\n\n每行一个单词，会按设定次数重复朗读'
+  }[state.mode];
+  $('#text').placeholder = p;
+}
+
+/* ---------------- 编辑区工具 ---------------- */
+let ROLE_TIMER = null;
+$('#text').addEventListener('input', ()=>{
+  updateCount();
+  if(state.mode==='dialogue'){
+    clearTimeout(ROLE_TIMER);
+    ROLE_TIMER = setTimeout(()=>refreshRoles(false), 700);
+  }
+});
+function updateCount(){
+  const n = $('#text').value.length;
+  const c = $('#count');
+  const segs = Math.max(1, Math.ceil(n/180));
+  c.textContent = n>1200 ? `${n} 字 · 约 ${segs} 段` : `${n} 字`;
+  c.classList.remove('over');
+}
+function insertAtCursor(s){
+  const t = $('#text');
+  const p = t.selectionStart ?? t.value.length;
+  t.value = t.value.slice(0,p) + s + t.value.slice(p);
+  t.focus();
+  t.selectionStart = t.selectionEnd = p + s.length;
+  updateCount();
+}
+function closePops(except){
+  ['pausePop','dingPop'].forEach(id=>{
+    const el = document.getElementById(id);
+    if(el && id !== except) el.style.display = 'none';
+  });
+}
+$('#btnPause').onclick = e=>{
+  e.stopPropagation();
+  const pop = $('#pausePop');
+  const open = pop.style.display === 'block';
+  closePops('pausePop');
+  pop.style.display = open ? 'none' : 'block';
+};
+$('#pausePop').onclick = e=>{
+  e.stopPropagation();
+  const b = e.target.closest('[data-p]');
+  if(!b) return;
+  insertAtCursor(` (⏱️=${b.dataset.p}s) `);
+  $('#pausePop').style.display='none';
+};
+
+/* 7 种提示音 */
+const SFX = [
+  {id:1, name:'叮咚', desc:'双音下行，最常用的门铃'},
+  {id:2, name:'风铃', desc:'多音错落，清脆悠长'},
+  {id:3, name:'嘟嘟', desc:'短促两声，像电子提示'},
+  {id:4, name:'哒喃', desc:'木质敲击，短而干脆'},
+  {id:5, name:'当~',  desc:'低频钟声，余音很长'},
+  {id:6, name:'咚~',  desc:'低沉重击，鼓点感'},
+  {id:7, name:'叮~',  desc:'高频单音，像三角铁'}
+];
+$('#dingList').innerHTML = SFX.map(s=>`
+  <div class="pk-item" data-sfx="${s.id}">
+    <span class="sfx-num">=${s.id}</span>
+    <span class="pi-body">
+      <span class="pi-t">${s.name}</span>
+      <span class="pi-n">${s.desc}</span>
+    </span>
+    <button class="pk-play" data-try="${s.id}" title="试听">▶</button>
+  </div>`).join('');
+
+$('#btnDing').onclick = e=>{
+  e.stopPropagation();
+  const pop = $('#dingPop');
+  const open = pop.style.display === 'block';
+  closePops('dingPop');
+  pop.style.display = open ? 'none' : 'block';
+};
+$('#dingPop').onclick = e=>{
+  e.stopPropagation();
+  const tryBtn = e.target.closest('[data-try]');
+  if(tryBtn){ new Audio('/api/sfx/' + tryBtn.dataset.try).play().catch(()=>{}); return; }
+  const item = e.target.closest('[data-sfx]');
+  if(!item) return;
+  insertAtCursor(` (🔔=${item.dataset.sfx}) `);
+  $('#dingPop').style.display='none';
+};
+$('#btnDemo').onclick = ()=>{
+  $('#text').value = DEMOS[state.mode];
+  updateCount();
+  if(state.mode==='dialogue') refreshRoles(true);
+  toast('已填入示例');
+};
+$('#btnClear').onclick = ()=>{
+  $('#text').value='';
+  updateCount();
+  if(state.mode==='dialogue'){ LAST_ROLE_KEY=''; state.roleRates={}; renderRoles([]); }
+};
+
+/* ---------------- 参数控件 ---------------- */
+$('#rate').oninput = e=>{
+  state.rate = +e.target.value;
+  $('#rateVal').textContent = '×' + (1 + state.rate/100).toFixed(2);
+  // 未单独调过语速的角色跟随全局
+  $$('#roleList .role-item').forEach(row=>{
+    if(row.dataset.role in state.roleRates) return;
+    const rg = $('.role-rate input', row);
+    if(rg){
+      rg.value = state.rate;
+      $('.rr-v', row).textContent = '×' + (1 + state.rate/100).toFixed(2);
+    }
+  });
+};
+$('#pitch').oninput = e=>{
+  state.pitch = +e.target.value;
+  $('#pitchVal').textContent = (state.pitch>0?'+':'') + state.pitch + ' Hz';
+};
+$('#volume').oninput = e=>{
+  state.volume = +e.target.value;
+  $('#volVal').textContent = (state.volume>0?'+':'') + state.volume + '%';
+};
+$('#linePause').oninput = e=>{ state.linePause=+e.target.value; $('#lpVal').textContent = state.linePause.toFixed(1)+' 秒'; };
+$('#repeat').oninput = e=>{ state.repeat=+e.target.value; $('#rpVal').textContent = state.repeat+' 次'; };
+$('#wordGap').oninput = e=>{ state.wordGap=+e.target.value; $('#wgVal').textContent = state.wordGap.toFixed(1)+' 秒'; };
+$('#spell').onchange = e=> state.spell = e.target.checked;
+
+/* ---------------- 分段播放器 ---------------- */
+const ICON_PLAY  = '<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>';
+const ICON_PAUSE = '<svg viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>';
+const ROLE_COLORS = ['#3d5afe','#0e9f6e','#d97706','#9333ea','#dc2626','#0891b2','#c026d3','#65a30d'];
+
+function roleColor(n){
+  if(!n) return '#6b7280';
+  let h = 0;
+  for(let k=0;k<n.length;k++) h = (h*31 + n.charCodeAt(k)) >>> 0;
+  return ROLE_COLORS[h % ROLE_COLORS.length];
+}
+function esc(s){
+  return String(s==null?'':s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+}
+const sleep = ms => new Promise(r=>setTimeout(r, ms));
+
+const Juke = {job:null, segs:[], idx:0, playing:false, oneShot:false,
+              audio:new Audio(), waiters:[]};
+Juke.audio.preload = 'auto';
+
+function rowOf(i){ return document.querySelector('.seg-row[data-i="'+i+'"]'); }
+
+function renderSegs(list, jobId){
+  Juke.job = jobId;
+  Juke.segs = list.map(s=>Object.assign({}, s, {ready: !!s.ready}));
+  Juke.idx = 0; Juke.playing = false; Juke.oneShot = false; Juke.waiters = [];
+  try{ Juke.audio.pause(); }catch(e){}
+  Juke.audio.removeAttribute('src');
+
+  $('#segs').innerHTML = Juke.segs.map(s=>{
+    const role = s.role
+      ? '<span class="seg-role" style="background:'+roleColor(s.role)+'">'+esc(s.role)+'</span>'
+      : '';
+    return '<div class="seg-row '+(s.ready?'':'pend')+'" data-i="'+s.i+'">'
+      + '<button class="seg-play" title="只播这一句">'+ICON_PLAY+'</button>'
+      + '<span class="seg-no">'+String(s.i).padStart(2,'0')+'</span>'
+      + '<span class="seg-meta">'+role
+      +   '<span class="seg-voice">'+esc(s.vlabel)+'</span>'
+      +   '<span class="seg-g">'+esc(s.glabel)+'</span></span>'
+      + '<span class="seg-text">'+esc(s.text)+'</span>'
+      + '</div>';
+  }).join('');
+
+  $('#segsWrap').classList.add('on');
+  $('#resEmpty').classList.add('hide');
+  $('#segs').scrollTop = 0;
+  setJukeBtn(false);
+  updateSegInfo();
+}
+
+function setReady(idxs){
+  if(!idxs || !idxs.length) return;
+  idxs.forEach(i=>{
+    const s = Juke.segs[i-1];
+    if(!s || s.ready) return;
+    s.ready = true;
+    const r = rowOf(i);
+    if(r) r.classList.remove('pend');
+  });
+  const keep = [];
+  Juke.waiters.forEach(w=>{
+    const s = Juke.segs[w.i-1];
+    if(s && s.ready){ w.resolve(true); } else { keep.push(w); }
+  });
+  Juke.waiters = keep;
+  updateSegInfo();
+}
+function failWaiters(){
+  Juke.waiters.forEach(w=>w.resolve(false));
+  Juke.waiters = [];
+}
+function waitSeg(i){ return new Promise(resolve=>{ Juke.waiters.push({i, resolve}); }); }
+
+function updateSegInfo(){
+  const n = Juke.segs.length;
+  if(!n){ $('#segsInfo').textContent = ''; return; }
+  const r = Juke.segs.filter(s=>s.ready).length;
+  $('#segsInfo').textContent = r >= n ? (n + ' 句 · 全部就绪') : ('已就绪 ' + r + '/' + n);
+}
+
+function setJukeBtn(on){
+  const b = $('#btnJuke');
+  b.classList.toggle('on', on);
+  b.innerHTML = (on ? ICON_PAUSE + '暂停' : ICON_PLAY + '连续播放');
+}
+
+function playSfx(n){
+  return new Promise(res=>{
+    const a = new Audio('/api/sfx/' + n);
+    let done = false;
+    const fin = ()=>{ if(!done){ done = true; res(); } };
+    a.onended = fin; a.onerror = fin;
+    a.play().catch(fin);
+    setTimeout(fin, 4000);
+  });
+}
+
+async function doAfter(s){
+  const acts = s.after || [];
+  for(let k=0;k<acts.length;k++){
+    if(!Juke.playing) return false;
+    const kind = acts[k][0], val = acts[k][1];
+    if(kind === 'pause' && val > 0){
+      const end = Date.now() + val * 1000;
+      while(Date.now() < end){
+        if(!Juke.playing) return false;
+        $('#segsInfo').textContent = '停顿 ' + ((end - Date.now())/1000).toFixed(1) + 's';
+        await sleep(100);
+      }
+      updateSegInfo();
+    }else if(kind === 'ding'){
+      await playSfx(val);
+    }
+  }
+  return Juke.playing;
+}
+
+async function step(){
+  if(!Juke.playing) return;
+  if(Juke.idx >= Juke.segs.length){ endJuke(); return; }
+  const k = Juke.idx, s = Juke.segs[k];
+
+  $$('.seg-row.playing').forEach(r=>r.classList.remove('playing'));
+  if(!s.ready){
+    const r0 = rowOf(s.i);
+    if(r0) r0.classList.add('waiting');
+    $('#segsInfo').textContent = '等待第 ' + s.i + ' 句合成…';
+    const ok = await waitSeg(s.i);
+    if(r0) r0.classList.remove('waiting');
+    if(!ok || !Juke.playing){ updateSegInfo(); return; }
+  }
+
+  const rp = rowOf(s.i);
+  if(rp){
+    rp.classList.add('playing');
+    rp.scrollIntoView({block:'nearest'});
+  }
+  Juke.audio.src = '/api/seg/' + Juke.job + '/' + s.i;
+  try{
+    await Juke.audio.play();
+  }catch(e){
+    Juke.playing = false; setJukeBtn(false);
+    if(rp) rp.classList.remove('playing');
+    toast('浏览器拦截了自动播放，点一下「连续播放」即可');
+    return;
+  }
+  Juke.idx = k + 1;
+}
+
+Juke.audio.onended = async ()=>{
+  if(!Juke.playing) return;
+  const prev = Juke.segs[Juke.idx - 1];
+  if(prev){
+    const r = rowOf(prev.i);
+    if(r) r.classList.remove('playing');
+  }
+  if(Juke.oneShot){
+    Juke.oneShot = false; Juke.playing = false; setJukeBtn(false);
+    updateSegInfo();
+    return;
+  }
+  if(prev){
+    const ok = await doAfter(prev);
+    if(!ok || !Juke.playing) return;
+  }
+  step();
+};
+
+function playJuke(from){
+  if(!Juke.segs.length){ toast('还没有可分句播放的内容'); return; }
+  if(typeof from === 'number') Juke.idx = from;
+  if(Juke.idx >= Juke.segs.length) Juke.idx = 0;
+  Juke.playing = true; Juke.oneShot = false;
+  setJukeBtn(true);
+  step();
+}
+function pauseJuke(){
+  Juke.playing = false;
+  try{ Juke.audio.pause(); }catch(e){}
+  setJukeBtn(false);
+  $$('.seg-row.playing').forEach(r=>r.classList.remove('playing'));
+  updateSegInfo();
+}
+function endJuke(){
+  Juke.playing = false; Juke.idx = 0;
+  setJukeBtn(false);
+  $$('.seg-row.playing').forEach(r=>r.classList.remove('playing'));
+  updateSegInfo();
+  toast('全部播放完毕');
+}
+
+$('#btnJuke').onclick = ()=>{ Juke.playing ? pauseJuke() : playJuke(); };
+
+$('#segs').onclick = e=>{
+  const row = e.target.closest('.seg-row');
+  if(!row) return;
+  const btn = e.target.closest('.seg-play');
+  const i = +row.dataset.i;
+  const s = Juke.segs[i-1];
+  if(!s) return;
+  pauseJuke();
+  if(btn){
+    if(!s.ready){ toast('这一句还在合成'); return; }
+    Juke.playing = true; Juke.oneShot = true; Juke.idx = i - 1;
+    setJukeBtn(true);
+    step();
+  }else{
+    playJuke(i - 1);
+  }
+};
+
+$('#player').addEventListener('play', ()=>{ if(Juke.playing) pauseJuke(); });
+
+/* ---------------- 生成 ---------------- */
+let POLL = null;
+$('#btnGen').onclick = async ()=>{
+  const text = $('#text').value.trim();
+  if(!text){ toast('请先输入文字'); $('#text').focus(); return; }
+  if(state.mode==='dialogue' && !Object.keys(state.roles||{}).length){
+    toast('还没识别到角色，请用「A: 台词」的格式'); return;
+  }
+
+  // 在用户手势里预热音频元素，避免「边生成边播放」被浏览器拦截
+  try{ Juke.audio.play().catch(()=>{}); Juke.audio.pause(); }catch(e){}
+
+  const btn = $('#btnGen');
+  btn.disabled = true; btn.textContent = '正在合成…';
+  $('#bar').classList.add('on'); $('#bar i').style.width = '2%';
+  $('#progTxt').classList.add('on'); $('#progTxt').textContent = '准备中…';
+
+  const payload = {
+    mode: state.mode, text,
+    voice: state.single,
+    roles: state.roles,
+    roleRates: state.roleRates,
+    rate: state.rate, pitch: state.pitch, volume: state.volume,
+    linePause: state.linePause,
+    repeat: state.repeat, wordGap: state.wordGap, spell: state.spell
+  };
+  if(state.mode==='dictation') payload.voice = state.single;
+
+  try{
+    const r = await fetch('/api/synthesize', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify(payload)
+    });
+    const d = await r.json();
+    if(!r.ok) throw new Error(d.error || '请求失败');
+    renderSegs(d.segs || [], d.job_id);
+    pollJob(d.job_id, d.total);
+    if($('#follow').checked) playJuke(0);
+  }catch(e){
+    resetGen(); toast(e.message);
+  }
+};
+
+function pollJob(id, total){
+  clearInterval(POLL);
+  POLL = setInterval(async ()=>{
+    try{
+      const r = await fetch('/api/job/'+id);
+      const j = await r.json();
+      setReady(j.segs_ready);
+      const pct = total ? Math.min(97, Math.round((j.done/total)*100)) : 30;
+      $('#bar i').style.width = pct + '%';
+      $('#progTxt').textContent = j.msg || '合成中…';
+      if(j.status==='done'){
+        clearInterval(POLL);
+        $('#bar i').style.width='100%';
+        $('#progTxt').textContent = '完成';
+        setTimeout(()=>{ $('#bar').classList.remove('on'); $('#progTxt').classList.remove('on'); }, 900);
+        setReady(Juke.segs.map(s=>s.i));
+        showResult(j);
+        resetGen();
+        loadHistory();
+      }else if(j.status==='error'){
+        clearInterval(POLL); resetGen(); failWaiters();
+        if(Juke.playing) pauseJuke();
+        toast('生成失败：' + (j.error||'未知错误'));
+      }
+    }catch(e){ clearInterval(POLL); resetGen(); failWaiters(); }
+  }, 400);
+}
+
+function resetGen(){
+  const btn = $('#btnGen');
+  btn.disabled = false; btn.textContent = '开始生成';
+  $('#bar i').style.width = '0';
+  setTimeout(()=>{ if(!$('#progTxt').textContent) $('#bar').classList.remove('on'); }, 1200);
+}
+
+function showResult(j){
+  if(!j || !j.file) return;
+  const pl = $('#player');
+  pl.src = '/files/' + j.file;
+  $('#result').classList.add('on');
+  $('#resEmpty').classList.add('hide');
+  $('#btnDownload').href = '/download/' + j.file;
+  $('#btnDownload').setAttribute('download', j.file);
+  const t = Math.round(j.duration || 0);
+  const mm = Math.floor(t/60), ss = String(t%60).padStart(2,'0');
+  $('#resMeta').textContent = mm + ':' + ss;
+  $('#resInfo').textContent = '整段 ' + (j.duration || 0) + ' 秒';
+  CUR_AUDIO = j.file;
+  if(!Juke.playing) pl.play().catch(()=>{});
+}
+
+/* ---------------- 历史 ---------------- */
+async function loadHistory(){
+  const r = await fetch('/api/history');
+  const items = await r.json();
+  const box = $('#history');
+  if(!items.length){ box.innerHTML = '<div class="empty">暂无记录</div>'; return; }
+  box.innerHTML = items.map(it=>{
+    const mm = Math.floor(it.duration/60), ss = Math.round(it.duration%60).toString().padStart(2,'0');
+    const modeName = {single:'单人', dialogue:'对话', dictation:'听写'}[it.mode] || '';
+    return `<div class="hist-item" data-f="${it.file}" data-d="${it.duration}" data-job="${it.id||''}">
+      <div class="hi-icon"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+      <div class="hi-t">
+        <div class="n">${(it.title||it.file).replace(/</g,'&lt;')}</div>
+        <div class="m">${it.time} · ${mm}:${ss} · <span class="badge">${modeName}</span></div>
+      </div>
+    </div>`;
+  }).join('');
+  $$('.hist-item', box).forEach(el=>{
+    el.onclick = async ()=>{
+      const f = el.dataset.f, d = +el.dataset.d, jid = el.dataset.job;
+      showResult({file:f, duration:d});
+      let restored = false;
+      if(jid){
+        try{
+          const rr = await fetch('/api/segs/' + jid);
+          if(rr.ok){
+            const dd = await rr.json();
+            renderSegs(dd.segs || [], jid);
+            restored = true;
+          }
+        }catch(e){}
+      }
+      if(!restored){
+        Juke.segs = []; Juke.job = null; Juke.playing = false;
+        $('#segsWrap').classList.remove('on');
+      }
+      $('#result').scrollIntoView({behavior:'smooth', block:'center'});
+    };
+  });
+}
+$('#btnClearHist').onclick = async ()=>{
+  await fetch('/api/history', {method:'DELETE'});
+  loadHistory();
+};
+
+/* ---------------- 杂项 ---------------- */
+function toast(msg){
+  const t = $('#toast');
+  t.textContent = msg; t.classList.add('on');
+  clearTimeout(t._tm);
+  t._tm = setTimeout(()=>t.classList.remove('on'), 2200);
+}
+$('#btnHelp').onclick = ()=> toast('Ctrl+Enter 生成 · 停顿 (⏱️=3s) · 提示音 (🔔=1~7)');
+document.addEventListener('keydown', e=>{
+  if((e.ctrlKey||e.metaKey) && e.key==='Enter'){ e.preventDefault(); $('#btnGen').click(); }
+});
+
+loadVoices().then(()=>{ updateCount(); loadHistory(); });
+</script>
+</body>
+</html>

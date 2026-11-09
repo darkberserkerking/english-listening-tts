@@ -1,0 +1,4854 @@
+[
+ {
+  "name": "af-ZA-AdriNeural",
+  "locale": "af-ZA",
+  "gender": "Female",
+  "friendly": "Microsoft Adri Online (Natural) - Afrikaans (South Africa)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "af-ZA-WillemNeural",
+  "locale": "af-ZA",
+  "gender": "Male",
+  "friendly": "Microsoft Willem Online (Natural) - Afrikaans (South Africa)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "sq-AL-AnilaNeural",
+  "locale": "sq-AL",
+  "gender": "Female",
+  "friendly": "Microsoft Anila Online (Natural) - Albanian (Albania)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "sq-AL-IlirNeural",
+  "locale": "sq-AL",
+  "gender": "Male",
+  "friendly": "Microsoft Ilir Online (Natural) - Albanian (Albania)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "am-ET-AmehaNeural",
+  "locale": "am-ET",
+  "gender": "Male",
+  "friendly": "Microsoft Ameha Online (Natural) - Amharic (Ethiopia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "am-ET-MekdesNeural",
+  "locale": "am-ET",
+  "gender": "Female",
+  "friendly": "Microsoft Mekdes Online (Natural) - Amharic (Ethiopia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-DZ-AminaNeural",
+  "locale": "ar-DZ",
+  "gender": "Female",
+  "friendly": "Microsoft Amina Online (Natural) - Arabic (Algeria)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-DZ-IsmaelNeural",
+  "locale": "ar-DZ",
+  "gender": "Male",
+  "friendly": "Microsoft Ismael Online (Natural) - Arabic (Algeria)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-BH-AliNeural",
+  "locale": "ar-BH",
+  "gender": "Male",
+  "friendly": "Microsoft Ali Online (Natural) - Arabic (Bahrain)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-BH-LailaNeural",
+  "locale": "ar-BH",
+  "gender": "Female",
+  "friendly": "Microsoft Laila Online (Natural) - Arabic (Bahrain)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-EG-SalmaNeural",
+  "locale": "ar-EG",
+  "gender": "Female",
+  "friendly": "Microsoft Salma Online (Natural) - Arabic (Egypt)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-EG-ShakirNeural",
+  "locale": "ar-EG",
+  "gender": "Male",
+  "friendly": "Microsoft Shakir Online (Natural) - Arabic (Egypt)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-IQ-BasselNeural",
+  "locale": "ar-IQ",
+  "gender": "Male",
+  "friendly": "Microsoft Bassel Online (Natural) - Arabic (Iraq)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-IQ-RanaNeural",
+  "locale": "ar-IQ",
+  "gender": "Female",
+  "friendly": "Microsoft Rana Online (Natural) - Arabic (Iraq)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-JO-SanaNeural",
+  "locale": "ar-JO",
+  "gender": "Female",
+  "friendly": "Microsoft Sana Online (Natural) - Arabic (Jordan)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-JO-TaimNeural",
+  "locale": "ar-JO",
+  "gender": "Male",
+  "friendly": "Microsoft Taim Online (Natural) - Arabic (Jordan)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-KW-FahedNeural",
+  "locale": "ar-KW",
+  "gender": "Male",
+  "friendly": "Microsoft Fahed Online (Natural) - Arabic (Kuwait)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-KW-NouraNeural",
+  "locale": "ar-KW",
+  "gender": "Female",
+  "friendly": "Microsoft Noura Online (Natural) - Arabic (Kuwait)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-LB-LaylaNeural",
+  "locale": "ar-LB",
+  "gender": "Female",
+  "friendly": "Microsoft Layla Online (Natural) - Arabic (Lebanon)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-LB-RamiNeural",
+  "locale": "ar-LB",
+  "gender": "Male",
+  "friendly": "Microsoft Rami Online (Natural) - Arabic (Lebanon)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-LY-ImanNeural",
+  "locale": "ar-LY",
+  "gender": "Female",
+  "friendly": "Microsoft Iman Online (Natural) - Arabic (Libya)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-LY-OmarNeural",
+  "locale": "ar-LY",
+  "gender": "Male",
+  "friendly": "Microsoft Omar Online (Natural) - Arabic (Libya)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-MA-JamalNeural",
+  "locale": "ar-MA",
+  "gender": "Male",
+  "friendly": "Microsoft Jamal Online (Natural) - Arabic (Morocco)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-MA-MounaNeural",
+  "locale": "ar-MA",
+  "gender": "Female",
+  "friendly": "Microsoft Mouna Online (Natural) - Arabic (Morocco)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-OM-AbdullahNeural",
+  "locale": "ar-OM",
+  "gender": "Male",
+  "friendly": "Microsoft Abdullah Online (Natural) - Arabic (Oman)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-OM-AyshaNeural",
+  "locale": "ar-OM",
+  "gender": "Female",
+  "friendly": "Microsoft Aysha Online (Natural) - Arabic (Oman)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-QA-AmalNeural",
+  "locale": "ar-QA",
+  "gender": "Female",
+  "friendly": "Microsoft Amal Online (Natural) - Arabic (Qatar)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-QA-MoazNeural",
+  "locale": "ar-QA",
+  "gender": "Male",
+  "friendly": "Microsoft Moaz Online (Natural) - Arabic (Qatar)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-SA-HamedNeural",
+  "locale": "ar-SA",
+  "gender": "Male",
+  "friendly": "Microsoft Hamed Online (Natural) - Arabic (Saudi Arabia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-SA-ZariyahNeural",
+  "locale": "ar-SA",
+  "gender": "Female",
+  "friendly": "Microsoft Zariyah Online (Natural) - Arabic (Saudi Arabia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-SY-AmanyNeural",
+  "locale": "ar-SY",
+  "gender": "Female",
+  "friendly": "Microsoft Amany Online (Natural) - Arabic (Syria)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-SY-LaithNeural",
+  "locale": "ar-SY",
+  "gender": "Male",
+  "friendly": "Microsoft Laith Online (Natural) - Arabic (Syria)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-TN-HediNeural",
+  "locale": "ar-TN",
+  "gender": "Male",
+  "friendly": "Microsoft Hedi Online (Natural) - Arabic (Tunisia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-TN-ReemNeural",
+  "locale": "ar-TN",
+  "gender": "Female",
+  "friendly": "Microsoft Reem Online (Natural) - Arabic (Tunisia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-AE-FatimaNeural",
+  "locale": "ar-AE",
+  "gender": "Female",
+  "friendly": "Microsoft Fatima Online (Natural) - Arabic (United Arab Emirates)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-AE-HamdanNeural",
+  "locale": "ar-AE",
+  "gender": "Male",
+  "friendly": "Microsoft Hamdan Online (Natural) - Arabic (United Arab Emirates)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-YE-MaryamNeural",
+  "locale": "ar-YE",
+  "gender": "Female",
+  "friendly": "Microsoft Maryam Online (Natural) - Arabic (Yemen)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ar-YE-SalehNeural",
+  "locale": "ar-YE",
+  "gender": "Male",
+  "friendly": "Microsoft Saleh Online (Natural) - Arabic (Yemen)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "az-AZ-BabekNeural",
+  "locale": "az-AZ",
+  "gender": "Male",
+  "friendly": "Microsoft Babek Online (Natural) - Azerbaijani (Azerbaijan)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "az-AZ-BanuNeural",
+  "locale": "az-AZ",
+  "gender": "Female",
+  "friendly": "Microsoft Banu Online (Natural) - Azerbaijani (Azerbaijan)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "bn-BD-NabanitaNeural",
+  "locale": "bn-BD",
+  "gender": "Female",
+  "friendly": "Microsoft Nabanita Online (Natural) - Bangla (Bangladesh)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "bn-BD-PradeepNeural",
+  "locale": "bn-BD",
+  "gender": "Male",
+  "friendly": "Microsoft Pradeep Online (Natural) - Bangla (Bangladesh)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "bn-IN-BashkarNeural",
+  "locale": "bn-IN",
+  "gender": "Male",
+  "friendly": "Microsoft Bashkar Online (Natural) - Bangla (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "bn-IN-TanishaaNeural",
+  "locale": "bn-IN",
+  "gender": "Female",
+  "friendly": "Microsoft Tanishaa Online (Natural) - Bengali (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "bs-BA-VesnaNeural",
+  "locale": "bs-BA",
+  "gender": "Female",
+  "friendly": "Microsoft Vesna Online (Natural) - Bosnian (Bosnia and Herzegovina)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "bs-BA-GoranNeural",
+  "locale": "bs-BA",
+  "gender": "Male",
+  "friendly": "Microsoft Goran Online (Natural) - Bosnian (Bosnia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "bg-BG-BorislavNeural",
+  "locale": "bg-BG",
+  "gender": "Male",
+  "friendly": "Microsoft Borislav Online (Natural) - Bulgarian (Bulgaria)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "bg-BG-KalinaNeural",
+  "locale": "bg-BG",
+  "gender": "Female",
+  "friendly": "Microsoft Kalina Online (Natural) - Bulgarian (Bulgaria)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "my-MM-NilarNeural",
+  "locale": "my-MM",
+  "gender": "Female",
+  "friendly": "Microsoft Nilar Online (Natural) - Burmese (Myanmar)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "my-MM-ThihaNeural",
+  "locale": "my-MM",
+  "gender": "Male",
+  "friendly": "Microsoft Thiha Online (Natural) - Burmese (Myanmar)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ca-ES-EnricNeural",
+  "locale": "ca-ES",
+  "gender": "Male",
+  "friendly": "Microsoft Enric Online (Natural) - Catalan",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ca-ES-JoanaNeural",
+  "locale": "ca-ES",
+  "gender": "Female",
+  "friendly": "Microsoft Joana Online (Natural) - Catalan",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "zh-HK-HiuGaaiNeural",
+  "locale": "zh-HK",
+  "gender": "Female",
+  "friendly": "Microsoft HiuGaai Online (Natural) - Chinese (Cantonese Traditional)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "zh-HK-HiuMaanNeural",
+  "locale": "zh-HK",
+  "gender": "Female",
+  "friendly": "Microsoft HiuMaan Online (Natural) - Chinese (Hong Kong SAR)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "zh-HK-WanLungNeural",
+  "locale": "zh-HK",
+  "gender": "Male",
+  "friendly": "Microsoft WanLung Online (Natural) - Chinese (Hong Kong SAR)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "zh-CN-XiaoxiaoNeural",
+  "locale": "zh-CN",
+  "gender": "Female",
+  "friendly": "Microsoft Xiaoxiao Online (Natural) - Chinese (Mainland)",
+  "tags": {
+   "ContentCategories": [
+    "News",
+    "Novel"
+   ],
+   "VoicePersonalities": [
+    "Warm"
+   ]
+  }
+ },
+ {
+  "name": "zh-CN-XiaoyiNeural",
+  "locale": "zh-CN",
+  "gender": "Female",
+  "friendly": "Microsoft Xiaoyi Online (Natural) - Chinese (Mainland)",
+  "tags": {
+   "ContentCategories": [
+    "Cartoon",
+    "Novel"
+   ],
+   "VoicePersonalities": [
+    "Lively"
+   ]
+  }
+ },
+ {
+  "name": "zh-CN-YunjianNeural",
+  "locale": "zh-CN",
+  "gender": "Male",
+  "friendly": "Microsoft Yunjian Online (Natural) - Chinese (Mainland)",
+  "tags": {
+   "ContentCategories": [
+    "Sports",
+    " Novel"
+   ],
+   "VoicePersonalities": [
+    "Passion"
+   ]
+  }
+ },
+ {
+  "name": "zh-CN-YunxiNeural",
+  "locale": "zh-CN",
+  "gender": "Male",
+  "friendly": "Microsoft Yunxi Online (Natural) - Chinese (Mainland)",
+  "tags": {
+   "ContentCategories": [
+    "Novel"
+   ],
+   "VoicePersonalities": [
+    "Lively",
+    "Sunshine"
+   ]
+  }
+ },
+ {
+  "name": "zh-CN-YunxiaNeural",
+  "locale": "zh-CN",
+  "gender": "Male",
+  "friendly": "Microsoft Yunxia Online (Natural) - Chinese (Mainland)",
+  "tags": {
+   "ContentCategories": [
+    "Cartoon",
+    "Novel"
+   ],
+   "VoicePersonalities": [
+    "Cute"
+   ]
+  }
+ },
+ {
+  "name": "zh-CN-YunyangNeural",
+  "locale": "zh-CN",
+  "gender": "Male",
+  "friendly": "Microsoft Yunyang Online (Natural) - Chinese (Mainland)",
+  "tags": {
+   "ContentCategories": [
+    "News"
+   ],
+   "VoicePersonalities": [
+    "Professional",
+    "Reliable"
+   ]
+  }
+ },
+ {
+  "name": "zh-CN-liaoning-XiaobeiNeural",
+  "locale": "zh-CN-liaoning",
+  "gender": "Female",
+  "friendly": "Microsoft Xiaobei Online (Natural) - Chinese (Northeastern Mandarin)",
+  "tags": {
+   "ContentCategories": [
+    "Dialect"
+   ],
+   "VoicePersonalities": [
+    "Humorous"
+   ]
+  }
+ },
+ {
+  "name": "zh-TW-HsiaoChenNeural",
+  "locale": "zh-TW",
+  "gender": "Female",
+  "friendly": "Microsoft HsiaoChen Online (Natural) - Chinese (Taiwan)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "zh-TW-YunJheNeural",
+  "locale": "zh-TW",
+  "gender": "Male",
+  "friendly": "Microsoft YunJhe Online (Natural) - Chinese (Taiwan)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "zh-TW-HsiaoYuNeural",
+  "locale": "zh-TW",
+  "gender": "Female",
+  "friendly": "Microsoft HsiaoYu Online (Natural) - Chinese (Taiwanese Mandarin)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "zh-CN-shaanxi-XiaoniNeural",
+  "locale": "zh-CN-shaanxi",
+  "gender": "Female",
+  "friendly": "Microsoft Xiaoni Online (Natural) - Chinese (Zhongyuan Mandarin Shaanxi)",
+  "tags": {
+   "ContentCategories": [
+    "Dialect"
+   ],
+   "VoicePersonalities": [
+    "Bright"
+   ]
+  }
+ },
+ {
+  "name": "hr-HR-GabrijelaNeural",
+  "locale": "hr-HR",
+  "gender": "Female",
+  "friendly": "Microsoft Gabrijela Online (Natural) - Croatian (Croatia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "hr-HR-SreckoNeural",
+  "locale": "hr-HR",
+  "gender": "Male",
+  "friendly": "Microsoft Srecko Online (Natural) - Croatian (Croatia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "cs-CZ-AntoninNeural",
+  "locale": "cs-CZ",
+  "gender": "Male",
+  "friendly": "Microsoft Antonin Online (Natural) - Czech (Czech)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "cs-CZ-VlastaNeural",
+  "locale": "cs-CZ",
+  "gender": "Female",
+  "friendly": "Microsoft Vlasta Online (Natural) - Czech (Czech)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "da-DK-ChristelNeural",
+  "locale": "da-DK",
+  "gender": "Female",
+  "friendly": "Microsoft Christel Online (Natural) - Danish (Denmark)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "da-DK-JeppeNeural",
+  "locale": "da-DK",
+  "gender": "Male",
+  "friendly": "Microsoft Jeppe Online (Natural) - Danish (Denmark)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "nl-BE-ArnaudNeural",
+  "locale": "nl-BE",
+  "gender": "Male",
+  "friendly": "Microsoft Arnaud Online (Natural) - Dutch (Belgium)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "nl-BE-DenaNeural",
+  "locale": "nl-BE",
+  "gender": "Female",
+  "friendly": "Microsoft Dena Online (Natural) - Dutch (Belgium)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "nl-NL-ColetteNeural",
+  "locale": "nl-NL",
+  "gender": "Female",
+  "friendly": "Microsoft Colette Online (Natural) - Dutch (Netherlands)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "nl-NL-FennaNeural",
+  "locale": "nl-NL",
+  "gender": "Female",
+  "friendly": "Microsoft Fenna Online (Natural) - Dutch (Netherlands)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "nl-NL-MaartenNeural",
+  "locale": "nl-NL",
+  "gender": "Male",
+  "friendly": "Microsoft Maarten Online (Natural) - Dutch (Netherlands)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-AU-WilliamMultilingualNeural",
+  "locale": "en-AU",
+  "gender": "Male",
+  "friendly": "Microsoft WilliamMultilingual Online (Natural) - English (Australia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-AU-NatashaNeural",
+  "locale": "en-AU",
+  "gender": "Female",
+  "friendly": "Microsoft Natasha Online (Natural) - English (Australia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-CA-ClaraNeural",
+  "locale": "en-CA",
+  "gender": "Female",
+  "friendly": "Microsoft Clara Online (Natural) - English (Canada)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-CA-LiamNeural",
+  "locale": "en-CA",
+  "gender": "Male",
+  "friendly": "Microsoft Liam Online (Natural) - English (Canada)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-HK-YanNeural",
+  "locale": "en-HK",
+  "gender": "Female",
+  "friendly": "Microsoft Yan Online (Natural) - English (Hong Kong SAR)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-HK-SamNeural",
+  "locale": "en-HK",
+  "gender": "Male",
+  "friendly": "Microsoft Sam Online (Natural) - English (Hongkong)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-IN-NeerjaExpressiveNeural",
+  "locale": "en-IN",
+  "gender": "Female",
+  "friendly": "Microsoft Neerja Online (Natural) - English (India) (Preview)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-IN-NeerjaNeural",
+  "locale": "en-IN",
+  "gender": "Female",
+  "friendly": "Microsoft Neerja Online (Natural) - English (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-IN-PrabhatNeural",
+  "locale": "en-IN",
+  "gender": "Male",
+  "friendly": "Microsoft Prabhat Online (Natural) - English (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-IE-ConnorNeural",
+  "locale": "en-IE",
+  "gender": "Male",
+  "friendly": "Microsoft Connor Online (Natural) - English (Ireland)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-IE-EmilyNeural",
+  "locale": "en-IE",
+  "gender": "Female",
+  "friendly": "Microsoft Emily Online (Natural) - English (Ireland)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-KE-AsiliaNeural",
+  "locale": "en-KE",
+  "gender": "Female",
+  "friendly": "Microsoft Asilia Online (Natural) - English (Kenya)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-KE-ChilembaNeural",
+  "locale": "en-KE",
+  "gender": "Male",
+  "friendly": "Microsoft Chilemba Online (Natural) - English (Kenya)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-NZ-MitchellNeural",
+  "locale": "en-NZ",
+  "gender": "Male",
+  "friendly": "Microsoft Mitchell Online (Natural) - English (New Zealand)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-NZ-MollyNeural",
+  "locale": "en-NZ",
+  "gender": "Female",
+  "friendly": "Microsoft Molly Online (Natural) - English (New Zealand)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-NG-AbeoNeural",
+  "locale": "en-NG",
+  "gender": "Male",
+  "friendly": "Microsoft Abeo Online (Natural) - English (Nigeria)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-NG-EzinneNeural",
+  "locale": "en-NG",
+  "gender": "Female",
+  "friendly": "Microsoft Ezinne Online (Natural) - English (Nigeria)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-PH-JamesNeural",
+  "locale": "en-PH",
+  "gender": "Male",
+  "friendly": "Microsoft James Online (Natural) - English (Philippines)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-PH-RosaNeural",
+  "locale": "en-PH",
+  "gender": "Female",
+  "friendly": "Microsoft Rosa Online (Natural) - English (Philippines)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-US-AvaNeural",
+  "locale": "en-US",
+  "gender": "Female",
+  "friendly": "Microsoft Ava Online (Natural) - English (United States)",
+  "tags": {
+   "ContentCategories": [
+    "Conversation",
+    "Copilot"
+   ],
+   "VoicePersonalities": [
+    "Expressive",
+    "Caring",
+    "Pleasant",
+    "Friendly"
+   ]
+  }
+ },
+ {
+  "name": "en-US-AndrewNeural",
+  "locale": "en-US",
+  "gender": "Male",
+  "friendly": "Microsoft Andrew Online (Natural) - English (United States)",
+  "tags": {
+   "ContentCategories": [
+    "Conversation",
+    "Copilot"
+   ],
+   "VoicePersonalities": [
+    "Warm",
+    "Confident",
+    "Authentic",
+    "Honest"
+   ]
+  }
+ },
+ {
+  "name": "en-US-EmmaNeural",
+  "locale": "en-US",
+  "gender": "Female",
+  "friendly": "Microsoft Emma Online (Natural) - English (United States)",
+  "tags": {
+   "ContentCategories": [
+    "Conversation",
+    "Copilot"
+   ],
+   "VoicePersonalities": [
+    "Cheerful",
+    "Clear",
+    "Conversational"
+   ]
+  }
+ },
+ {
+  "name": "en-US-BrianNeural",
+  "locale": "en-US",
+  "gender": "Male",
+  "friendly": "Microsoft Brian Online (Natural) - English (United States)",
+  "tags": {
+   "ContentCategories": [
+    "Conversation",
+    "Copilot"
+   ],
+   "VoicePersonalities": [
+    "Approachable",
+    "Casual",
+    "Sincere"
+   ]
+  }
+ },
+ {
+  "name": "en-SG-LunaNeural",
+  "locale": "en-SG",
+  "gender": "Female",
+  "friendly": "Microsoft Luna Online (Natural) - English (Singapore)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-SG-WayneNeural",
+  "locale": "en-SG",
+  "gender": "Male",
+  "friendly": "Microsoft Wayne Online (Natural) - English (Singapore)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-ZA-LeahNeural",
+  "locale": "en-ZA",
+  "gender": "Female",
+  "friendly": "Microsoft Leah Online (Natural) - English (South Africa)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-ZA-LukeNeural",
+  "locale": "en-ZA",
+  "gender": "Male",
+  "friendly": "Microsoft Luke Online (Natural) - English (South Africa)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-TZ-ElimuNeural",
+  "locale": "en-TZ",
+  "gender": "Male",
+  "friendly": "Microsoft Elimu Online (Natural) - English (Tanzania)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-TZ-ImaniNeural",
+  "locale": "en-TZ",
+  "gender": "Female",
+  "friendly": "Microsoft Imani Online (Natural) - English (Tanzania)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-GB-LibbyNeural",
+  "locale": "en-GB",
+  "gender": "Female",
+  "friendly": "Microsoft Libby Online (Natural) - English (United Kingdom)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-GB-MaisieNeural",
+  "locale": "en-GB",
+  "gender": "Female",
+  "friendly": "Microsoft Maisie Online (Natural) - English (United Kingdom)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-GB-RyanNeural",
+  "locale": "en-GB",
+  "gender": "Male",
+  "friendly": "Microsoft Ryan Online (Natural) - English (United Kingdom)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-GB-SoniaNeural",
+  "locale": "en-GB",
+  "gender": "Female",
+  "friendly": "Microsoft Sonia Online (Natural) - English (United Kingdom)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-GB-ThomasNeural",
+  "locale": "en-GB",
+  "gender": "Male",
+  "friendly": "Microsoft Thomas Online (Natural) - English (United Kingdom)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "en-US-AnaNeural",
+  "locale": "en-US",
+  "gender": "Female",
+  "friendly": "Microsoft Ana Online (Natural) - English (United States)",
+  "tags": {
+   "ContentCategories": [
+    "Cartoon",
+    "Conversation"
+   ],
+   "VoicePersonalities": [
+    "Cute"
+   ]
+  }
+ },
+ {
+  "name": "en-US-AndrewMultilingualNeural",
+  "locale": "en-US",
+  "gender": "Male",
+  "friendly": "Microsoft AndrewMultilingual Online (Natural) - English (United States)",
+  "tags": {
+   "ContentCategories": [
+    "Conversation",
+    "Copilot"
+   ],
+   "VoicePersonalities": [
+    "Warm",
+    "Confident",
+    "Authentic",
+    "Honest"
+   ]
+  }
+ },
+ {
+  "name": "en-US-AriaNeural",
+  "locale": "en-US",
+  "gender": "Female",
+  "friendly": "Microsoft Aria Online (Natural) - English (United States)",
+  "tags": {
+   "ContentCategories": [
+    "News",
+    "Novel"
+   ],
+   "VoicePersonalities": [
+    "Positive",
+    "Confident"
+   ]
+  }
+ },
+ {
+  "name": "en-US-AvaMultilingualNeural",
+  "locale": "en-US",
+  "gender": "Female",
+  "friendly": "Microsoft AvaMultilingual Online (Natural) - English (United States)",
+  "tags": {
+   "ContentCategories": [
+    "Conversation",
+    "Copilot"
+   ],
+   "VoicePersonalities": [
+    "Expressive",
+    "Caring",
+    "Pleasant",
+    "Friendly"
+   ]
+  }
+ },
+ {
+  "name": "en-US-BrianMultilingualNeural",
+  "locale": "en-US",
+  "gender": "Male",
+  "friendly": "Microsoft BrianMultilingual Online (Natural) - English (United States)",
+  "tags": {
+   "ContentCategories": [
+    "Conversation",
+    "Copilot"
+   ],
+   "VoicePersonalities": [
+    "Approachable",
+    "Casual",
+    "Sincere"
+   ]
+  }
+ },
+ {
+  "name": "en-US-ChristopherNeural",
+  "locale": "en-US",
+  "gender": "Male",
+  "friendly": "Microsoft Christopher Online (Natural) - English (United States)",
+  "tags": {
+   "ContentCategories": [
+    "News",
+    "Novel"
+   ],
+   "VoicePersonalities": [
+    "Reliable",
+    "Authority"
+   ]
+  }
+ },
+ {
+  "name": "en-US-EmmaMultilingualNeural",
+  "locale": "en-US",
+  "gender": "Female",
+  "friendly": "Microsoft EmmaMultilingual Online (Natural) - English (United States)",
+  "tags": {
+   "ContentCategories": [
+    "Conversation",
+    "Copilot"
+   ],
+   "VoicePersonalities": [
+    "Cheerful",
+    "Clear",
+    "Conversational"
+   ]
+  }
+ },
+ {
+  "name": "en-US-EricNeural",
+  "locale": "en-US",
+  "gender": "Male",
+  "friendly": "Microsoft Eric Online (Natural) - English (United States)",
+  "tags": {
+   "ContentCategories": [
+    "News",
+    "Novel"
+   ],
+   "VoicePersonalities": [
+    "Rational"
+   ]
+  }
+ },
+ {
+  "name": "en-US-GuyNeural",
+  "locale": "en-US",
+  "gender": "Male",
+  "friendly": "Microsoft Guy Online (Natural) - English (United States)",
+  "tags": {
+   "ContentCategories": [
+    "News",
+    "Novel"
+   ],
+   "VoicePersonalities": [
+    "Passion"
+   ]
+  }
+ },
+ {
+  "name": "en-US-JennyNeural",
+  "locale": "en-US",
+  "gender": "Female",
+  "friendly": "Microsoft Jenny Online (Natural) - English (United States)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Considerate",
+    "Comfort"
+   ]
+  }
+ },
+ {
+  "name": "en-US-MichelleNeural",
+  "locale": "en-US",
+  "gender": "Female",
+  "friendly": "Microsoft Michelle Online (Natural) - English (United States)",
+  "tags": {
+   "ContentCategories": [
+    "News",
+    "Novel"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Pleasant"
+   ]
+  }
+ },
+ {
+  "name": "en-US-RogerNeural",
+  "locale": "en-US",
+  "gender": "Male",
+  "friendly": "Microsoft Roger Online (Natural) - English (United States)",
+  "tags": {
+   "ContentCategories": [
+    "News",
+    "Novel"
+   ],
+   "VoicePersonalities": [
+    "Lively"
+   ]
+  }
+ },
+ {
+  "name": "en-US-SteffanNeural",
+  "locale": "en-US",
+  "gender": "Male",
+  "friendly": "Microsoft Steffan Online (Natural) - English (United States)",
+  "tags": {
+   "ContentCategories": [
+    "News",
+    "Novel"
+   ],
+   "VoicePersonalities": [
+    "Rational"
+   ]
+  }
+ },
+ {
+  "name": "et-EE-AnuNeural",
+  "locale": "et-EE",
+  "gender": "Female",
+  "friendly": "Microsoft Anu Online (Natural) - Estonian (Estonia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "et-EE-KertNeural",
+  "locale": "et-EE",
+  "gender": "Male",
+  "friendly": "Microsoft Kert Online (Natural) - Estonian (Estonia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fil-PH-AngeloNeural",
+  "locale": "fil-PH",
+  "gender": "Male",
+  "friendly": "Microsoft Angelo Online (Natural) - Filipino (Philippines)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fil-PH-BlessicaNeural",
+  "locale": "fil-PH",
+  "gender": "Female",
+  "friendly": "Microsoft Blessica Online (Natural) - Filipino (Philippines)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fi-FI-HarriNeural",
+  "locale": "fi-FI",
+  "gender": "Male",
+  "friendly": "Microsoft Harri Online (Natural) - Finnish (Finland)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fi-FI-NooraNeural",
+  "locale": "fi-FI",
+  "gender": "Female",
+  "friendly": "Microsoft Noora Online (Natural) - Finnish (Finland)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fr-BE-CharlineNeural",
+  "locale": "fr-BE",
+  "gender": "Female",
+  "friendly": "Microsoft Charline Online (Natural) - French (Belgium)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fr-BE-GerardNeural",
+  "locale": "fr-BE",
+  "gender": "Male",
+  "friendly": "Microsoft Gerard Online (Natural) - French (Belgium)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fr-CA-ThierryNeural",
+  "locale": "fr-CA",
+  "gender": "Male",
+  "friendly": "Microsoft Thierry Online (Natural) - French (Canada)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fr-CA-AntoineNeural",
+  "locale": "fr-CA",
+  "gender": "Male",
+  "friendly": "Microsoft Antoine Online (Natural) - French (Canada)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fr-CA-JeanNeural",
+  "locale": "fr-CA",
+  "gender": "Male",
+  "friendly": "Microsoft Jean Online (Natural) - French (Canada)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fr-CA-SylvieNeural",
+  "locale": "fr-CA",
+  "gender": "Female",
+  "friendly": "Microsoft Sylvie Online (Natural) - French (Canada)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fr-FR-VivienneMultilingualNeural",
+  "locale": "fr-FR",
+  "gender": "Female",
+  "friendly": "Microsoft VivienneMultilingual Online (Natural) - French (France)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fr-FR-RemyMultilingualNeural",
+  "locale": "fr-FR",
+  "gender": "Male",
+  "friendly": "Microsoft RemyMultilingual Online (Natural) - French (France)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fr-FR-DeniseNeural",
+  "locale": "fr-FR",
+  "gender": "Female",
+  "friendly": "Microsoft Denise Online (Natural) - French (France)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fr-FR-EloiseNeural",
+  "locale": "fr-FR",
+  "gender": "Female",
+  "friendly": "Microsoft Eloise Online (Natural) - French (France)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fr-FR-HenriNeural",
+  "locale": "fr-FR",
+  "gender": "Male",
+  "friendly": "Microsoft Henri Online (Natural) - French (France)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fr-CH-ArianeNeural",
+  "locale": "fr-CH",
+  "gender": "Female",
+  "friendly": "Microsoft Ariane Online (Natural) - French (Switzerland)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fr-CH-FabriceNeural",
+  "locale": "fr-CH",
+  "gender": "Male",
+  "friendly": "Microsoft Fabrice Online (Natural) - French (Switzerland)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "gl-ES-RoiNeural",
+  "locale": "gl-ES",
+  "gender": "Male",
+  "friendly": "Microsoft Roi Online (Natural) - Galician",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "gl-ES-SabelaNeural",
+  "locale": "gl-ES",
+  "gender": "Female",
+  "friendly": "Microsoft Sabela Online (Natural) - Galician",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ka-GE-EkaNeural",
+  "locale": "ka-GE",
+  "gender": "Female",
+  "friendly": "Microsoft Eka Online (Natural) - Georgian (Georgia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ka-GE-GiorgiNeural",
+  "locale": "ka-GE",
+  "gender": "Male",
+  "friendly": "Microsoft Giorgi Online (Natural) - Georgian (Georgia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "de-AT-IngridNeural",
+  "locale": "de-AT",
+  "gender": "Female",
+  "friendly": "Microsoft Ingrid Online (Natural) - German (Austria)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "de-AT-JonasNeural",
+  "locale": "de-AT",
+  "gender": "Male",
+  "friendly": "Microsoft Jonas Online (Natural) - German (Austria)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "de-DE-SeraphinaMultilingualNeural",
+  "locale": "de-DE",
+  "gender": "Female",
+  "friendly": "Microsoft SeraphinaMultilingual Online (Natural) - German (Germany)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "de-DE-FlorianMultilingualNeural",
+  "locale": "de-DE",
+  "gender": "Male",
+  "friendly": "Microsoft FlorianMultilingual Online (Natural) - German (Germany)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "de-DE-AmalaNeural",
+  "locale": "de-DE",
+  "gender": "Female",
+  "friendly": "Microsoft Amala Online (Natural) - German (Germany)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "de-DE-ConradNeural",
+  "locale": "de-DE",
+  "gender": "Male",
+  "friendly": "Microsoft Conrad Online (Natural) - German (Germany)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "de-DE-KatjaNeural",
+  "locale": "de-DE",
+  "gender": "Female",
+  "friendly": "Microsoft Katja Online (Natural) - German (Germany)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "de-DE-KillianNeural",
+  "locale": "de-DE",
+  "gender": "Male",
+  "friendly": "Microsoft Killian Online (Natural) - German (Germany)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "de-CH-JanNeural",
+  "locale": "de-CH",
+  "gender": "Male",
+  "friendly": "Microsoft Jan Online (Natural) - German (Switzerland)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "de-CH-LeniNeural",
+  "locale": "de-CH",
+  "gender": "Female",
+  "friendly": "Microsoft Leni Online (Natural) - German (Switzerland)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "el-GR-AthinaNeural",
+  "locale": "el-GR",
+  "gender": "Female",
+  "friendly": "Microsoft Athina Online (Natural) - Greek (Greece)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "el-GR-NestorasNeural",
+  "locale": "el-GR",
+  "gender": "Male",
+  "friendly": "Microsoft Nestoras Online (Natural) - Greek (Greece)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "gu-IN-DhwaniNeural",
+  "locale": "gu-IN",
+  "gender": "Female",
+  "friendly": "Microsoft Dhwani Online (Natural) - Gujarati (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "gu-IN-NiranjanNeural",
+  "locale": "gu-IN",
+  "gender": "Male",
+  "friendly": "Microsoft Niranjan Online (Natural) - Gujarati (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "he-IL-AvriNeural",
+  "locale": "he-IL",
+  "gender": "Male",
+  "friendly": "Microsoft Avri Online (Natural) - Hebrew (Israel)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "he-IL-HilaNeural",
+  "locale": "he-IL",
+  "gender": "Female",
+  "friendly": "Microsoft Hila Online (Natural) - Hebrew (Israel)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "hi-IN-MadhurNeural",
+  "locale": "hi-IN",
+  "gender": "Male",
+  "friendly": "Microsoft Madhur Online (Natural) - Hindi (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "hi-IN-SwaraNeural",
+  "locale": "hi-IN",
+  "gender": "Female",
+  "friendly": "Microsoft Swara Online (Natural) - Hindi (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "hu-HU-NoemiNeural",
+  "locale": "hu-HU",
+  "gender": "Female",
+  "friendly": "Microsoft Noemi Online (Natural) - Hungarian (Hungary)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "hu-HU-TamasNeural",
+  "locale": "hu-HU",
+  "gender": "Male",
+  "friendly": "Microsoft Tamas Online (Natural) - Hungarian (Hungary)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "is-IS-GudrunNeural",
+  "locale": "is-IS",
+  "gender": "Female",
+  "friendly": "Microsoft Gudrun Online (Natural) - Icelandic (Iceland)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "is-IS-GunnarNeural",
+  "locale": "is-IS",
+  "gender": "Male",
+  "friendly": "Microsoft Gunnar Online (Natural) - Icelandic (Iceland)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "id-ID-ArdiNeural",
+  "locale": "id-ID",
+  "gender": "Male",
+  "friendly": "Microsoft Ardi Online (Natural) - Indonesian (Indonesia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "id-ID-GadisNeural",
+  "locale": "id-ID",
+  "gender": "Female",
+  "friendly": "Microsoft Gadis Online (Natural) - Indonesian (Indonesia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "iu-Latn-CA-SiqiniqNeural",
+  "locale": "iu-Latn-CA",
+  "gender": "Female",
+  "friendly": "Microsoft Siqiniq Online (Natural) - Inuktitut (Latin, Canada)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "iu-Latn-CA-TaqqiqNeural",
+  "locale": "iu-Latn-CA",
+  "gender": "Male",
+  "friendly": "Microsoft Taqqiq Online (Natural) - Inuktitut (Latin, Canada)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "iu-Cans-CA-SiqiniqNeural",
+  "locale": "iu-Cans-CA",
+  "gender": "Female",
+  "friendly": "Microsoft Siqiniq Online (Natural) - Inuktitut (Syllabics, Canada)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "iu-Cans-CA-TaqqiqNeural",
+  "locale": "iu-Cans-CA",
+  "gender": "Male",
+  "friendly": "Microsoft Taqqiq Online (Natural) - Inuktitut (Syllabics, Canada)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ga-IE-ColmNeural",
+  "locale": "ga-IE",
+  "gender": "Male",
+  "friendly": "Microsoft Colm Online (Natural) - Irish (Ireland)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ga-IE-OrlaNeural",
+  "locale": "ga-IE",
+  "gender": "Female",
+  "friendly": "Microsoft Orla Online (Natural) - Irish (Ireland)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "it-IT-GiuseppeMultilingualNeural",
+  "locale": "it-IT",
+  "gender": "Male",
+  "friendly": "Microsoft GiuseppeMultilingual Online (Natural) - Italian (Italy)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "it-IT-DiegoNeural",
+  "locale": "it-IT",
+  "gender": "Male",
+  "friendly": "Microsoft Diego Online (Natural) - Italian (Italy)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "it-IT-ElsaNeural",
+  "locale": "it-IT",
+  "gender": "Female",
+  "friendly": "Microsoft Elsa Online (Natural) - Italian (Italy)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "it-IT-IsabellaNeural",
+  "locale": "it-IT",
+  "gender": "Female",
+  "friendly": "Microsoft Isabella Online (Natural) - Italian (Italy)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ja-JP-KeitaNeural",
+  "locale": "ja-JP",
+  "gender": "Male",
+  "friendly": "Microsoft Keita Online (Natural) - Japanese (Japan)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ja-JP-NanamiNeural",
+  "locale": "ja-JP",
+  "gender": "Female",
+  "friendly": "Microsoft Nanami Online (Natural) - Japanese (Japan)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "jv-ID-DimasNeural",
+  "locale": "jv-ID",
+  "gender": "Male",
+  "friendly": "Microsoft Dimas Online (Natural) - Javanese (Indonesia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "jv-ID-SitiNeural",
+  "locale": "jv-ID",
+  "gender": "Female",
+  "friendly": "Microsoft Siti Online (Natural) - Javanese (Indonesia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "kn-IN-GaganNeural",
+  "locale": "kn-IN",
+  "gender": "Male",
+  "friendly": "Microsoft Gagan Online (Natural) - Kannada (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "kn-IN-SapnaNeural",
+  "locale": "kn-IN",
+  "gender": "Female",
+  "friendly": "Microsoft Sapna Online (Natural) - Kannada (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "kk-KZ-AigulNeural",
+  "locale": "kk-KZ",
+  "gender": "Female",
+  "friendly": "Microsoft Aigul Online (Natural) - Kazakh (Kazakhstan)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "kk-KZ-DauletNeural",
+  "locale": "kk-KZ",
+  "gender": "Male",
+  "friendly": "Microsoft Daulet Online (Natural) - Kazakh (Kazakhstan)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "km-KH-PisethNeural",
+  "locale": "km-KH",
+  "gender": "Male",
+  "friendly": "Microsoft Piseth Online (Natural) - Khmer (Cambodia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "km-KH-SreymomNeural",
+  "locale": "km-KH",
+  "gender": "Female",
+  "friendly": "Microsoft Sreymom Online (Natural) - Khmer (Cambodia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ko-KR-HyunsuMultilingualNeural",
+  "locale": "ko-KR",
+  "gender": "Male",
+  "friendly": "Microsoft HyunsuMultilingual Online (Natural) - Korean (Korea)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ko-KR-InJoonNeural",
+  "locale": "ko-KR",
+  "gender": "Male",
+  "friendly": "Microsoft InJoon Online (Natural) - Korean (Korea)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ko-KR-SunHiNeural",
+  "locale": "ko-KR",
+  "gender": "Female",
+  "friendly": "Microsoft SunHi Online (Natural) - Korean (Korea)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "lo-LA-ChanthavongNeural",
+  "locale": "lo-LA",
+  "gender": "Male",
+  "friendly": "Microsoft Chanthavong Online (Natural) - Lao (Laos)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "lo-LA-KeomanyNeural",
+  "locale": "lo-LA",
+  "gender": "Female",
+  "friendly": "Microsoft Keomany Online (Natural) - Lao (Laos)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "lv-LV-EveritaNeural",
+  "locale": "lv-LV",
+  "gender": "Female",
+  "friendly": "Microsoft Everita Online (Natural) - Latvian (Latvia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "lv-LV-NilsNeural",
+  "locale": "lv-LV",
+  "gender": "Male",
+  "friendly": "Microsoft Nils Online (Natural) - Latvian (Latvia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "lt-LT-LeonasNeural",
+  "locale": "lt-LT",
+  "gender": "Male",
+  "friendly": "Microsoft Leonas Online (Natural) - Lithuanian (Lithuania)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "lt-LT-OnaNeural",
+  "locale": "lt-LT",
+  "gender": "Female",
+  "friendly": "Microsoft Ona Online (Natural) - Lithuanian (Lithuania)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "mk-MK-AleksandarNeural",
+  "locale": "mk-MK",
+  "gender": "Male",
+  "friendly": "Microsoft Aleksandar Online (Natural) - Macedonian (North Macedonia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "mk-MK-MarijaNeural",
+  "locale": "mk-MK",
+  "gender": "Female",
+  "friendly": "Microsoft Marija Online (Natural) - Macedonian (North Macedonia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ms-MY-OsmanNeural",
+  "locale": "ms-MY",
+  "gender": "Male",
+  "friendly": "Microsoft Osman Online (Natural) - Malay (Malaysia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ms-MY-YasminNeural",
+  "locale": "ms-MY",
+  "gender": "Female",
+  "friendly": "Microsoft Yasmin Online (Natural) - Malay (Malaysia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ml-IN-MidhunNeural",
+  "locale": "ml-IN",
+  "gender": "Male",
+  "friendly": "Microsoft Midhun Online (Natural) - Malayalam (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ml-IN-SobhanaNeural",
+  "locale": "ml-IN",
+  "gender": "Female",
+  "friendly": "Microsoft Sobhana Online (Natural) - Malayalam (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "mt-MT-GraceNeural",
+  "locale": "mt-MT",
+  "gender": "Female",
+  "friendly": "Microsoft Grace Online (Natural) - Maltese (Malta)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "mt-MT-JosephNeural",
+  "locale": "mt-MT",
+  "gender": "Male",
+  "friendly": "Microsoft Joseph Online (Natural) - Maltese (Malta)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "mr-IN-AarohiNeural",
+  "locale": "mr-IN",
+  "gender": "Female",
+  "friendly": "Microsoft Aarohi Online (Natural) - Marathi (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "mr-IN-ManoharNeural",
+  "locale": "mr-IN",
+  "gender": "Male",
+  "friendly": "Microsoft Manohar Online (Natural) - Marathi (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "mn-MN-BataaNeural",
+  "locale": "mn-MN",
+  "gender": "Male",
+  "friendly": "Microsoft Bataa Online (Natural) - Mongolian (Mongolia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "mn-MN-YesuiNeural",
+  "locale": "mn-MN",
+  "gender": "Female",
+  "friendly": "Microsoft Yesui Online (Natural) - Mongolian (Mongolia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ne-NP-HemkalaNeural",
+  "locale": "ne-NP",
+  "gender": "Female",
+  "friendly": "Microsoft Hemkala Online (Natural) - Nepali (Nepal)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ne-NP-SagarNeural",
+  "locale": "ne-NP",
+  "gender": "Male",
+  "friendly": "Microsoft Sagar Online (Natural) - Nepali (Nepal)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "nb-NO-FinnNeural",
+  "locale": "nb-NO",
+  "gender": "Male",
+  "friendly": "Microsoft Finn Online (Natural) - Norwegian (Bokmål Norway)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "nb-NO-PernilleNeural",
+  "locale": "nb-NO",
+  "gender": "Female",
+  "friendly": "Microsoft Pernille Online (Natural) - Norwegian (Bokmål, Norway)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ps-AF-GulNawazNeural",
+  "locale": "ps-AF",
+  "gender": "Male",
+  "friendly": "Microsoft GulNawaz Online (Natural) - Pashto (Afghanistan)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ps-AF-LatifaNeural",
+  "locale": "ps-AF",
+  "gender": "Female",
+  "friendly": "Microsoft Latifa Online (Natural) - Pashto (Afghanistan)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fa-IR-DilaraNeural",
+  "locale": "fa-IR",
+  "gender": "Female",
+  "friendly": "Microsoft Dilara Online (Natural) - Persian (Iran)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "fa-IR-FaridNeural",
+  "locale": "fa-IR",
+  "gender": "Male",
+  "friendly": "Microsoft Farid Online (Natural) - Persian (Iran)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "pl-PL-MarekNeural",
+  "locale": "pl-PL",
+  "gender": "Male",
+  "friendly": "Microsoft Marek Online (Natural) - Polish (Poland)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "pl-PL-ZofiaNeural",
+  "locale": "pl-PL",
+  "gender": "Female",
+  "friendly": "Microsoft Zofia Online (Natural) - Polish (Poland)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "pt-BR-ThalitaMultilingualNeural",
+  "locale": "pt-BR",
+  "gender": "Female",
+  "friendly": "Microsoft ThalitaMultilingual Online (Natural) - Portuguese (Brazil)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "pt-BR-AntonioNeural",
+  "locale": "pt-BR",
+  "gender": "Male",
+  "friendly": "Microsoft Antonio Online (Natural) - Portuguese (Brazil)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "pt-BR-FranciscaNeural",
+  "locale": "pt-BR",
+  "gender": "Female",
+  "friendly": "Microsoft Francisca Online (Natural) - Portuguese (Brazil)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "pt-PT-DuarteNeural",
+  "locale": "pt-PT",
+  "gender": "Male",
+  "friendly": "Microsoft Duarte Online (Natural) - Portuguese (Portugal)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "pt-PT-RaquelNeural",
+  "locale": "pt-PT",
+  "gender": "Female",
+  "friendly": "Microsoft Raquel Online (Natural) - Portuguese (Portugal)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ro-RO-AlinaNeural",
+  "locale": "ro-RO",
+  "gender": "Female",
+  "friendly": "Microsoft Alina Online (Natural) - Romanian (Romania)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ro-RO-EmilNeural",
+  "locale": "ro-RO",
+  "gender": "Male",
+  "friendly": "Microsoft Emil Online (Natural) - Romanian (Romania)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ru-RU-DmitryNeural",
+  "locale": "ru-RU",
+  "gender": "Male",
+  "friendly": "Microsoft Dmitry Online (Natural) - Russian (Russia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ru-RU-SvetlanaNeural",
+  "locale": "ru-RU",
+  "gender": "Female",
+  "friendly": "Microsoft Svetlana Online (Natural) - Russian (Russia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "sr-RS-NicholasNeural",
+  "locale": "sr-RS",
+  "gender": "Male",
+  "friendly": "Microsoft Nicholas Online (Natural) - Serbian (Serbia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "sr-RS-SophieNeural",
+  "locale": "sr-RS",
+  "gender": "Female",
+  "friendly": "Microsoft Sophie Online (Natural) - Serbian (Serbia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "si-LK-SameeraNeural",
+  "locale": "si-LK",
+  "gender": "Male",
+  "friendly": "Microsoft Sameera Online (Natural) - Sinhala (Sri Lanka)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "si-LK-ThiliniNeural",
+  "locale": "si-LK",
+  "gender": "Female",
+  "friendly": "Microsoft Thilini Online (Natural) - Sinhala (Sri Lanka)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "sk-SK-LukasNeural",
+  "locale": "sk-SK",
+  "gender": "Male",
+  "friendly": "Microsoft Lukas Online (Natural) - Slovak (Slovakia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "sk-SK-ViktoriaNeural",
+  "locale": "sk-SK",
+  "gender": "Female",
+  "friendly": "Microsoft Viktoria Online (Natural) - Slovak (Slovakia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "sl-SI-PetraNeural",
+  "locale": "sl-SI",
+  "gender": "Female",
+  "friendly": "Microsoft Petra Online (Natural) - Slovenian (Slovenia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "sl-SI-RokNeural",
+  "locale": "sl-SI",
+  "gender": "Male",
+  "friendly": "Microsoft Rok Online (Natural) - Slovenian (Slovenia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "so-SO-MuuseNeural",
+  "locale": "so-SO",
+  "gender": "Male",
+  "friendly": "Microsoft Muuse Online (Natural) - Somali (Somalia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "so-SO-UbaxNeural",
+  "locale": "so-SO",
+  "gender": "Female",
+  "friendly": "Microsoft Ubax Online (Natural) - Somali (Somalia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-AR-ElenaNeural",
+  "locale": "es-AR",
+  "gender": "Female",
+  "friendly": "Microsoft Elena Online (Natural) - Spanish (Argentina)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-AR-TomasNeural",
+  "locale": "es-AR",
+  "gender": "Male",
+  "friendly": "Microsoft Tomas Online (Natural) - Spanish (Argentina)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-BO-MarceloNeural",
+  "locale": "es-BO",
+  "gender": "Male",
+  "friendly": "Microsoft Marcelo Online (Natural) - Spanish (Bolivia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-BO-SofiaNeural",
+  "locale": "es-BO",
+  "gender": "Female",
+  "friendly": "Microsoft Sofia Online (Natural) - Spanish (Bolivia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-CL-CatalinaNeural",
+  "locale": "es-CL",
+  "gender": "Female",
+  "friendly": "Microsoft Catalina Online (Natural) - Spanish (Chile)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-CL-LorenzoNeural",
+  "locale": "es-CL",
+  "gender": "Male",
+  "friendly": "Microsoft Lorenzo Online (Natural) - Spanish (Chile)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-CO-GonzaloNeural",
+  "locale": "es-CO",
+  "gender": "Male",
+  "friendly": "Microsoft Gonzalo Online (Natural) - Spanish (Colombia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-CO-SalomeNeural",
+  "locale": "es-CO",
+  "gender": "Female",
+  "friendly": "Microsoft Salome Online (Natural) - Spanish (Colombia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-ES-XimenaNeural",
+  "locale": "es-ES",
+  "gender": "Female",
+  "friendly": "Microsoft Ximena Online (Natural) - Spanish (Colombia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-CR-JuanNeural",
+  "locale": "es-CR",
+  "gender": "Male",
+  "friendly": "Microsoft Juan Online (Natural) - Spanish (Costa Rica)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-CR-MariaNeural",
+  "locale": "es-CR",
+  "gender": "Female",
+  "friendly": "Microsoft Maria Online (Natural) - Spanish (Costa Rica)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-CU-BelkysNeural",
+  "locale": "es-CU",
+  "gender": "Female",
+  "friendly": "Microsoft Belkys Online (Natural) - Spanish (Cuba)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-CU-ManuelNeural",
+  "locale": "es-CU",
+  "gender": "Male",
+  "friendly": "Microsoft Manuel Online (Natural) - Spanish (Cuba)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-DO-EmilioNeural",
+  "locale": "es-DO",
+  "gender": "Male",
+  "friendly": "Microsoft Emilio Online (Natural) - Spanish (Dominican Republic)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-DO-RamonaNeural",
+  "locale": "es-DO",
+  "gender": "Female",
+  "friendly": "Microsoft Ramona Online (Natural) - Spanish (Dominican Republic)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-EC-AndreaNeural",
+  "locale": "es-EC",
+  "gender": "Female",
+  "friendly": "Microsoft Andrea Online (Natural) - Spanish (Ecuador)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-EC-LuisNeural",
+  "locale": "es-EC",
+  "gender": "Male",
+  "friendly": "Microsoft Luis Online (Natural) - Spanish (Ecuador)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-SV-LorenaNeural",
+  "locale": "es-SV",
+  "gender": "Female",
+  "friendly": "Microsoft Lorena Online (Natural) - Spanish (El Salvador)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-SV-RodrigoNeural",
+  "locale": "es-SV",
+  "gender": "Male",
+  "friendly": "Microsoft Rodrigo Online (Natural) - Spanish (El Salvador)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-GQ-JavierNeural",
+  "locale": "es-GQ",
+  "gender": "Male",
+  "friendly": "Microsoft Javier Online (Natural) - Spanish (Equatorial Guinea)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-GQ-TeresaNeural",
+  "locale": "es-GQ",
+  "gender": "Female",
+  "friendly": "Microsoft Teresa Online (Natural) - Spanish (Equatorial Guinea)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-GT-AndresNeural",
+  "locale": "es-GT",
+  "gender": "Male",
+  "friendly": "Microsoft Andres Online (Natural) - Spanish (Guatemala)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-GT-MartaNeural",
+  "locale": "es-GT",
+  "gender": "Female",
+  "friendly": "Microsoft Marta Online (Natural) - Spanish (Guatemala)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-HN-CarlosNeural",
+  "locale": "es-HN",
+  "gender": "Male",
+  "friendly": "Microsoft Carlos Online (Natural) - Spanish (Honduras)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-HN-KarlaNeural",
+  "locale": "es-HN",
+  "gender": "Female",
+  "friendly": "Microsoft Karla Online (Natural) - Spanish (Honduras)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-MX-DaliaNeural",
+  "locale": "es-MX",
+  "gender": "Female",
+  "friendly": "Microsoft Dalia Online (Natural) - Spanish (Mexico)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-MX-JorgeNeural",
+  "locale": "es-MX",
+  "gender": "Male",
+  "friendly": "Microsoft Jorge Online (Natural) - Spanish (Mexico)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-NI-FedericoNeural",
+  "locale": "es-NI",
+  "gender": "Male",
+  "friendly": "Microsoft Federico Online (Natural) - Spanish (Nicaragua)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-NI-YolandaNeural",
+  "locale": "es-NI",
+  "gender": "Female",
+  "friendly": "Microsoft Yolanda Online (Natural) - Spanish (Nicaragua)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-PA-MargaritaNeural",
+  "locale": "es-PA",
+  "gender": "Female",
+  "friendly": "Microsoft Margarita Online (Natural) - Spanish (Panama)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-PA-RobertoNeural",
+  "locale": "es-PA",
+  "gender": "Male",
+  "friendly": "Microsoft Roberto Online (Natural) - Spanish (Panama)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-PY-MarioNeural",
+  "locale": "es-PY",
+  "gender": "Male",
+  "friendly": "Microsoft Mario Online (Natural) - Spanish (Paraguay)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-PY-TaniaNeural",
+  "locale": "es-PY",
+  "gender": "Female",
+  "friendly": "Microsoft Tania Online (Natural) - Spanish (Paraguay)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-PE-AlexNeural",
+  "locale": "es-PE",
+  "gender": "Male",
+  "friendly": "Microsoft Alex Online (Natural) - Spanish (Peru)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-PE-CamilaNeural",
+  "locale": "es-PE",
+  "gender": "Female",
+  "friendly": "Microsoft Camila Online (Natural) - Spanish (Peru)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-PR-KarinaNeural",
+  "locale": "es-PR",
+  "gender": "Female",
+  "friendly": "Microsoft Karina Online (Natural) - Spanish (Puerto Rico)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-PR-VictorNeural",
+  "locale": "es-PR",
+  "gender": "Male",
+  "friendly": "Microsoft Victor Online (Natural) - Spanish (Puerto Rico)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-ES-AlvaroNeural",
+  "locale": "es-ES",
+  "gender": "Male",
+  "friendly": "Microsoft Alvaro Online (Natural) - Spanish (Spain)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-ES-ElviraNeural",
+  "locale": "es-ES",
+  "gender": "Female",
+  "friendly": "Microsoft Elvira Online (Natural) - Spanish (Spain)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-US-AlonsoNeural",
+  "locale": "es-US",
+  "gender": "Male",
+  "friendly": "Microsoft Alonso Online (Natural) - Spanish (United States)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-US-PalomaNeural",
+  "locale": "es-US",
+  "gender": "Female",
+  "friendly": "Microsoft Paloma Online (Natural) - Spanish (United States)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-UY-MateoNeural",
+  "locale": "es-UY",
+  "gender": "Male",
+  "friendly": "Microsoft Mateo Online (Natural) - Spanish (Uruguay)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-UY-ValentinaNeural",
+  "locale": "es-UY",
+  "gender": "Female",
+  "friendly": "Microsoft Valentina Online (Natural) - Spanish (Uruguay)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-VE-PaolaNeural",
+  "locale": "es-VE",
+  "gender": "Female",
+  "friendly": "Microsoft Paola Online (Natural) - Spanish (Venezuela)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "es-VE-SebastianNeural",
+  "locale": "es-VE",
+  "gender": "Male",
+  "friendly": "Microsoft Sebastian Online (Natural) - Spanish (Venezuela)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "su-ID-JajangNeural",
+  "locale": "su-ID",
+  "gender": "Male",
+  "friendly": "Microsoft Jajang Online (Natural) - Sundanese (Indonesia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "su-ID-TutiNeural",
+  "locale": "su-ID",
+  "gender": "Female",
+  "friendly": "Microsoft Tuti Online (Natural) - Sundanese (Indonesia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "sw-KE-RafikiNeural",
+  "locale": "sw-KE",
+  "gender": "Male",
+  "friendly": "Microsoft Rafiki Online (Natural) - Swahili (Kenya)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "sw-KE-ZuriNeural",
+  "locale": "sw-KE",
+  "gender": "Female",
+  "friendly": "Microsoft Zuri Online (Natural) - Swahili (Kenya)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "sw-TZ-DaudiNeural",
+  "locale": "sw-TZ",
+  "gender": "Male",
+  "friendly": "Microsoft Daudi Online (Natural) - Swahili (Tanzania)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "sw-TZ-RehemaNeural",
+  "locale": "sw-TZ",
+  "gender": "Female",
+  "friendly": "Microsoft Rehema Online (Natural) - Swahili (Tanzania)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "sv-SE-MattiasNeural",
+  "locale": "sv-SE",
+  "gender": "Male",
+  "friendly": "Microsoft Mattias Online (Natural) - Swedish (Sweden)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "sv-SE-SofieNeural",
+  "locale": "sv-SE",
+  "gender": "Female",
+  "friendly": "Microsoft Sofie Online (Natural) - Swedish (Sweden)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ta-IN-PallaviNeural",
+  "locale": "ta-IN",
+  "gender": "Female",
+  "friendly": "Microsoft Pallavi Online (Natural) - Tamil (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ta-IN-ValluvarNeural",
+  "locale": "ta-IN",
+  "gender": "Male",
+  "friendly": "Microsoft Valluvar Online (Natural) - Tamil (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ta-MY-KaniNeural",
+  "locale": "ta-MY",
+  "gender": "Female",
+  "friendly": "Microsoft Kani Online (Natural) - Tamil (Malaysia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ta-MY-SuryaNeural",
+  "locale": "ta-MY",
+  "gender": "Male",
+  "friendly": "Microsoft Surya Online (Natural) - Tamil (Malaysia)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ta-SG-AnbuNeural",
+  "locale": "ta-SG",
+  "gender": "Male",
+  "friendly": "Microsoft Anbu Online (Natural) - Tamil (Singapore)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ta-SG-VenbaNeural",
+  "locale": "ta-SG",
+  "gender": "Female",
+  "friendly": "Microsoft Venba Online (Natural) - Tamil (Singapore)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ta-LK-KumarNeural",
+  "locale": "ta-LK",
+  "gender": "Male",
+  "friendly": "Microsoft Kumar Online (Natural) - Tamil (Sri Lanka)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ta-LK-SaranyaNeural",
+  "locale": "ta-LK",
+  "gender": "Female",
+  "friendly": "Microsoft Saranya Online (Natural) - Tamil (Sri Lanka)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "te-IN-MohanNeural",
+  "locale": "te-IN",
+  "gender": "Male",
+  "friendly": "Microsoft Mohan Online (Natural) - Telugu (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "te-IN-ShrutiNeural",
+  "locale": "te-IN",
+  "gender": "Female",
+  "friendly": "Microsoft Shruti Online (Natural) - Telugu (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "th-TH-NiwatNeural",
+  "locale": "th-TH",
+  "gender": "Male",
+  "friendly": "Microsoft Niwat Online (Natural) - Thai (Thailand)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "th-TH-PremwadeeNeural",
+  "locale": "th-TH",
+  "gender": "Female",
+  "friendly": "Microsoft Premwadee Online (Natural) - Thai (Thailand)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "tr-TR-EmelNeural",
+  "locale": "tr-TR",
+  "gender": "Female",
+  "friendly": "Microsoft Emel Online (Natural) - Turkish (Turkey)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "tr-TR-AhmetNeural",
+  "locale": "tr-TR",
+  "gender": "Male",
+  "friendly": "Microsoft Ahmet Online (Natural) - Turkish (Türkiye)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "uk-UA-OstapNeural",
+  "locale": "uk-UA",
+  "gender": "Male",
+  "friendly": "Microsoft Ostap Online (Natural) - Ukrainian (Ukraine)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "uk-UA-PolinaNeural",
+  "locale": "uk-UA",
+  "gender": "Female",
+  "friendly": "Microsoft Polina Online (Natural) - Ukrainian (Ukraine)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ur-IN-GulNeural",
+  "locale": "ur-IN",
+  "gender": "Female",
+  "friendly": "Microsoft Gul Online (Natural) - Urdu (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ur-IN-SalmanNeural",
+  "locale": "ur-IN",
+  "gender": "Male",
+  "friendly": "Microsoft Salman Online (Natural) - Urdu (India)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ur-PK-AsadNeural",
+  "locale": "ur-PK",
+  "gender": "Male",
+  "friendly": "Microsoft Asad Online (Natural) - Urdu (Pakistan)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "ur-PK-UzmaNeural",
+  "locale": "ur-PK",
+  "gender": "Female",
+  "friendly": "Microsoft Uzma Online (Natural) - Urdu (Pakistan)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "uz-UZ-MadinaNeural",
+  "locale": "uz-UZ",
+  "gender": "Female",
+  "friendly": "Microsoft Madina Online (Natural) - Uzbek (Uzbekistan)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "uz-UZ-SardorNeural",
+  "locale": "uz-UZ",
+  "gender": "Male",
+  "friendly": "Microsoft Sardor Online (Natural) - Uzbek (Uzbekistan)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "vi-VN-HoaiMyNeural",
+  "locale": "vi-VN",
+  "gender": "Female",
+  "friendly": "Microsoft HoaiMy Online (Natural) - Vietnamese (Vietnam)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "vi-VN-NamMinhNeural",
+  "locale": "vi-VN",
+  "gender": "Male",
+  "friendly": "Microsoft NamMinh Online (Natural) - Vietnamese (Vietnam)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "cy-GB-AledNeural",
+  "locale": "cy-GB",
+  "gender": "Male",
+  "friendly": "Microsoft Aled Online (Natural) - Welsh (United Kingdom)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "cy-GB-NiaNeural",
+  "locale": "cy-GB",
+  "gender": "Female",
+  "friendly": "Microsoft Nia Online (Natural) - Welsh (United Kingdom)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "zu-ZA-ThandoNeural",
+  "locale": "zu-ZA",
+  "gender": "Female",
+  "friendly": "Microsoft Thando Online (Natural) - Zulu (South Africa)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ },
+ {
+  "name": "zu-ZA-ThembaNeural",
+  "locale": "zu-ZA",
+  "gender": "Male",
+  "friendly": "Microsoft Themba Online (Natural) - Zulu (South Africa)",
+  "tags": {
+   "ContentCategories": [
+    "General"
+   ],
+   "VoicePersonalities": [
+    "Friendly",
+    "Positive"
+   ]
+  }
+ }
+]

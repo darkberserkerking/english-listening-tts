@@ -1,0 +1,46 @@
+# ---------- 生成的音频与缓存（约 121MB，不入库） ----------
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.flac
+cache/
+output/
+tts_out/
+*.timestamps.json
+
+# ---------- 运行时状态 / 历史 ----------
+history.json
+*.log
+
+# ---------- 本地私有数据 / 个人教学文本 ----------
+.workbuddy/
+listen_hobbies.txt
+demo.txt
+.env
+.env.*
+!.env.example
+*.local
+*_secret*
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# ---------- 临时调试产物 ----------
+_mkpreview.py
+_shot.png
+_check.js
+_preview.html
+*.part
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
